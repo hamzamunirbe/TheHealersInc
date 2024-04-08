@@ -1,0 +1,161 @@
+.caption {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: none;
+}
+.mainHeadline,
+.secondaryHeadline {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+}
+.mainHeadline {
+  margin: 0;
+  font-size: var(--font-size-53xl);
+  font-weight: 900;
+  font-family: var(--web-secondary-buttonlarge);
+  color: var(--white);
+}
+.secondaryHeadline {
+  height: 62px;
+  font-size: var(--heading-2-size);
+  font-weight: 800;
+  color: var(--blue-gray-900);
+  display: none;
+}
+.paragraph,
+.top {
+  align-self: stretch;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.paragraph {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 160%;
+  font-weight: 400;
+  font-family: var(--web-secondary-buttonlarge);
+  color: var(--white);
+}
+.heroSection,
+.sectionText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.sectionText {
+  width: 696px;
+  gap: var(--gap-37xl);
+}
+.heroSection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  overflow: hidden;
+  padding: var(--padding-186xl) var(--padding-xl);
+  box-sizing: border-box;
+  height: 100%;
+}
+.theHealersIcon,
+.theHealersLogo {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.theHealersLogo {
+  height: 48px;
+  width: 48.2px;
+}
+.theHealersIcon {
+  align-self: stretch;
+  height: 22.9px;
+  max-width: 100%;
+}
+.practitionerButton {
+  height: 35.4px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi-5);
+  box-sizing: border-box;
+}
+.header,
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.logo {
+  height: 48px;
+  width: 240px;
+  align-items: flex-end;
+  gap: var(--gap-smi-6);
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  align-items: flex-start;
+  padding: var(--padding-5xl) var(--padding-81xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.heroSectionParent {
+  align-self: stretch;
+  height: 700px;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--caption-m-size);
+  color: var(--blue-gray-600);
+  font-family: var(--heading-2);
+}
+@media screen and (max-width: 750px) {
+  .mainHeadline {
+    font-size: var(--font-size-39xl);
+    line-height: 63px;
+  }
+  .secondaryHeadline {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .sectionText {
+    gap: 28px 56px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .caption {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+  .mainHeadline {
+    font-size: var(--font-size-24xl);
+    line-height: 48px;
+  }
+  .secondaryHeadline {
+    font-size: var(--font-size-15xl);
+    line-height: 37px;
+  }
+  .paragraph {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+}

@@ -1,0 +1,252 @@
+.whyChooseUs {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1.63px;
+  text-transform: uppercase;
+}
+.organizeRemoteTeam {
+  margin: 0;
+  width: 568px;
+  position: relative;
+  font-size: var(--heading-2-size);
+  letter-spacing: -1.8px;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-gray-100);
+  display: inline-block;
+  max-width: 100%;
+}
+.whyChooseUsParent {
+  width: 589px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.weShareCommon {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--caption-m-size);
+  letter-spacing: -0.2px;
+  line-height: 180%;
+  color: var(--color-gray-300);
+  mix-blend-mode: normal;
+}
+.frameParent {
+  width: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 690px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-lightcoral);
+}
+.ellipseWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0;
+}
+.bookingMade,
+.simple {
+  margin: 0;
+}
+.bookingMadeSimpleContainer {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 21.6px;
+  display: inline-block;
+  min-height: 48px;
+}
+.frameContainer {
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 234.1px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-orange-100);
+  width: 175px;
+  height: 216px;
+  mix-blend-mode: normal;
+}
+.frameItem,
+.wrapperGroup5Child {
+  position: absolute;
+  top: 393.2px;
+  left: 0;
+  width: 170px;
+  height: 79px;
+  object-fit: contain;
+}
+.wrapperGroup5Child {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 42px;
+  transform: scale(1.476);
+}
+.wrapperGroup5 {
+  position: absolute;
+  top: 28px;
+  left: 118.1px;
+  width: 227px;
+  height: 502px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  height: 530px;
+  width: 409.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: -242px;
+  right: -251px;
+}
+.frameInner {
+  height: 46px;
+  width: 109px;
+  position: relative;
+}
+.copyrightSymbolContainerInner {
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) 0 var(--padding-2xl-5);
+  box-sizing: border-box;
+}
+.general {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.2px;
+}
+.copyrightSymbolContainer {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-tomato);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-5xl);
+  gap: var(--gap-5xl);
+  z-index: 2;
+}
+.frameDiv,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameDiv {
+  width: 200px;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  text-align: center;
+  color: var(--white);
+}
+.frameGroup,
+.theHealersApp,
+.theHealersAppInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-19xl);
+}
+.theHealersApp,
+.theHealersAppInner {
+  box-sizing: border-box;
+}
+.theHealersAppInner {
+  width: 243px;
+  flex-direction: column;
+  padding: var(--padding-20xl-5) 0 0;
+  min-width: 243px;
+  font-size: var(--font-size-lgi);
+  color: var(--color-black);
+}
+.theHealersApp {
+  align-self: stretch;
+  background-color: var(--consumer-colors-primary-1);
+  flex-direction: row;
+  padding: var(--padding-121xl-5) var(--padding-81xl);
+  gap: var(--gap-37xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--consumer-colors-monochromatic);
+  font-family: var(--web-secondary-buttonlarge);
+}
+@media screen and (max-width: 1225px) {
+  .frameParent,
+  .theHealersAppInner {
+    flex: 1;
+  }
+  .theHealersApp {
+    flex-wrap: wrap;
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .organizeRemoteTeam {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .frameParent {
+    gap: 16px 32px;
+  }
+  .theHealersApp {
+    gap: 56px 28px;
+    padding: var(--padding-72xl) var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .organizeRemoteTeam {
+    font-size: var(--font-size-15xl);
+    line-height: 37px;
+  }
+  .weShareCommon {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+}

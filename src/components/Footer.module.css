@@ -1,0 +1,380 @@
+.theHealersLogo1 {
+  height: 46.9px;
+  width: 47.4px;
+  position: relative;
+}
+.theHealersIcon {
+  align-self: stretch;
+  height: 22.4px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.theHealersWrapper {
+  height: 34.6px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi-2);
+  box-sizing: border-box;
+}
+.theHealersLogo1Parent {
+  width: 236px;
+  height: 46.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-smi-4);
+}
+.withLotsOf {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.company,
+.div {
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+}
+.div {
+  width: 256px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.company {
+  width: 88.2px;
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.aboutUsContact,
+.aboutUsContact1,
+.aboutUsContact2,
+.aboutUsContact3 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.2px;
+}
+.logoInstance {
+  width: 186.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.company1 {
+  width: 88.2px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  color: var(--color-gray-300);
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.aboutUsContact4,
+.aboutUsContact5,
+.aboutUsContact6 {
+  width: 186.8px;
+  position: relative;
+  letter-spacing: -0.2px;
+  display: inline-block;
+}
+.aboutUsContact7 {
+  position: relative;
+  letter-spacing: -0.2px;
+}
+.logoInstance1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.company2 {
+  width: 88.2px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  color: var(--color-gray-300);
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.aboutUsContact10,
+.aboutUsContact11,
+.aboutUsContact8,
+.aboutUsContact9 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.2px;
+}
+.logoInstance2 {
+  width: 186.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.appStoreFilled,
+.button {
+  align-self: stretch;
+  height: 40px;
+}
+.appStoreFilled {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.vectorIcon,
+.vectorIcon1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  z-index: 1;
+}
+.vectorIcon2 {
+  width: 11.1px;
+  height: 21.5px;
+  position: relative;
+  z-index: 4;
+}
+.vectorWrapper {
+  height: 24.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-2);
+  box-sizing: border-box;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  margin: 0 !important;
+}
+.vectorIcon3 {
+  height: 13.4px;
+  width: 16.2px;
+  bottom: 7.2px;
+  left: 10.1px;
+  z-index: 2;
+}
+.vectorIcon4 {
+  height: 11px;
+  width: 12.5px;
+  top: calc(50% - 5.5px);
+  left: 20.5px;
+  z-index: 3;
+}
+.getItOn,
+.vectorIcon5 {
+  position: relative;
+  z-index: 2;
+}
+.getItOn {
+  display: inline-block;
+  -webkit-text-stroke: 0.2px #fff;
+  min-width: 40px;
+}
+.vectorIcon5 {
+  align-self: stretch;
+  height: 17px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.appStoreLogo {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs-4);
+}
+.vectorIcon6 {
+  height: 12.9px;
+  width: 16.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 7.1px;
+  left: 10px;
+  z-index: 5;
+}
+.googlePlay {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-6) var(--padding-3xs-2) var(--padding-7xs)
+    var(--padding-3xs);
+  position: relative;
+  gap: var(--gap-lgi-8);
+}
+.button1,
+.googlePlay {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+}
+.appStoreButton,
+.button1,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appStoreButton {
+  height: 96px;
+  width: 135px;
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--font-size-4xs-4);
+  color: var(--white);
+  font-family: var(--font-open-sans);
+}
+.parent {
+  flex-direction: row;
+  gap: var(--gap-42xl-6);
+  max-width: 100%;
+}
+.copyrightAl,
+.lineCopyIcon {
+  position: relative;
+  max-width: 100%;
+}
+.lineCopyIcon {
+  width: 1240px;
+  height: 2px;
+}
+.copyrightAl {
+  flex: 1;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 203px;
+}
+.logoFacebookIcon,
+.logoInstagramIcon,
+.logoLinkedinIcon,
+.logoTwitterIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.logoInstagramIcon,
+.logoLinkedinIcon {
+  object-fit: cover;
+}
+.social {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.div1,
+.footer,
+.socialWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.socialWrapper {
+  width: 192px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.div1,
+.footer {
+  max-width: 100%;
+}
+.div1 {
+  width: 1240px;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  row-gap: 20px;
+  font-size: var(--font-size-mini);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--white);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-21xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-gray-100);
+  font-family: var(--web-secondary-buttonlarge);
+}
+@media screen and (max-width: 1225px) {
+  .parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .parent {
+    gap: 61.6px 31px;
+  }
+  .footer {
+    gap: 16px 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    gap: 16px 32px;
+  }
+  .parent {
+    gap: 61.6px 15px;
+  }
+  .footer {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
