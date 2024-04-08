@@ -56,7 +56,7 @@
   line-height: 26px;
   display: inline-block;
   font-family: var(--web-secondary-buttonlarge);
-  color: var(--default-white);
+  color: var(--white);
   text-align: center;
 }
 .button,
@@ -138,7 +138,7 @@
 }
 @media screen and (max-width: 750px) {
   .shiftYourBusiness {
-    font-size: var(--font-size-29xl);
+    font-size: var(--web-primary-h2-primary-dm-sans-size);
     line-height: 52px;
   }
   .content {

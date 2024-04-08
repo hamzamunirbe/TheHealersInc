@@ -1,16 +1,16 @@
 import { FunctionComponent } from "react";
 import Header from "../components/Header";
-import FrameComponent from "../components/FrameComponent";
-import WhyChooseUs from "../components/WhyChooseUs";
+import FrameComponent1 from "../components/FrameComponent1";
+import WhyChooseUs1 from "../components/WhyChooseUs1";
 import SectionText from "../components/SectionText";
-import Footer from "../components/Footer";
+import Footer1 from "../components/Footer1";
 import styles from "./PractitionerLandingPage.module.css";
 
 const PractitionerLandingPage: FunctionComponent = () => {
   return (
     <div className={styles.practitionerLandingPage}>
       <Header />
-      <FrameComponent />
+      <FrameComponent1 />
       <div className={styles.googlePlayButton}>
         <div className={styles.getItOnButton}>
           <b className={styles.ourStory}>KNow more about us</b>
@@ -48,7 +48,7 @@ const PractitionerLandingPage: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <WhyChooseUs />
+      <WhyChooseUs1 />
       <section className={styles.theHealersApp}>
         <div className={styles.content}>
           <b className={styles.whyChooseUs}>The Healers app</b>
@@ -58,7 +58,7 @@ const PractitionerLandingPage: FunctionComponent = () => {
           <img className={styles.imageIcon} alt="" src="/image-1@2x.png" />
         </div>
       </section>
-      <Footer />
+      <Footer1 />
     </div>
   );
 };

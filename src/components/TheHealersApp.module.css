@@ -72,7 +72,7 @@
 }
 .frameContainer {
   border-radius: var(--br-base);
-  background-color: var(--default-white);
+  background-color: var(--white);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -171,7 +171,7 @@
   align-self: stretch;
   justify-content: flex-end;
   text-align: center;
-  color: var(--default-white);
+  color: var(--white);
 }
 .frameGroup,
 .theHealersApp,
@@ -195,7 +195,8 @@
   padding: var(--padding-20xl-5) 0 0;
   min-width: 243px;
   font-size: var(--font-size-lgi);
-  color: var(--color-black);
+  color: var(--m3-black);
+  font-family: var(--font-gilroy-bold);
 }
 .theHealersApp {
   align-self: stretch;

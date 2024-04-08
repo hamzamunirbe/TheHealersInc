@@ -13,6 +13,6 @@
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-5xl);
-  color: var(--default-white);
+  color: var(--white);
   font-family: var(--web-secondary-buttonlarge);
 }

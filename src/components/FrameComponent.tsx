@@ -3,36 +3,40 @@ import styles from "./FrameComponent.module.css";
 
 const FrameComponent: FunctionComponent = () => {
   return (
-    <section className={styles.heroWrapper}>
-      <div className={styles.hero}>
-        <div className={styles.innerDiv}>
-          <div className={styles.content}>
-            <div className={styles.title}>
-              <b className={styles.letsShiftYour}>Let’s shift your business</b>
-              <h1 className={styles.shiftYourBusiness}>
-                Empower your business with The Healers.
-              </h1>
-            </div>
-            <div className={styles.withLotsOf}>
-              Unlock Your Healing Potential, Connect with Clients, and Flourish
-              in Your Practice with The Healers App – Your Trusted Partner in
-              Holistic Health and Wellness.
-            </div>
-            <button className={styles.button}>
-              <div className={styles.iconWrapper}>
-                <img className={styles.wrapperIcon} alt="" />
-              </div>
-              <b className={styles.text}>Join as Practitioner</b>
-            </button>
+    <section className={styles.heroSectionParent}>
+      <div className={styles.heroSection}>
+        <div className={styles.sectionText}>
+          <div className={styles.top}>
+            <b className={styles.caption}>Caption</b>
+            <h1 className={styles.mainHeadline}>
+              Ready to transform your life?
+            </h1>
+            <div className={styles.secondaryHeadline}>Headline Two</div>
           </div>
-          <img
-            className={styles.imageIcon}
-            loading="lazy"
-            alt=""
-            src="/image@2x.png"
-          />
+          <h3 className={styles.paragraph}>
+            Join The Healers today and take the first step towards a healthier,
+            happier you.
+          </h3>
         </div>
       </div>
+      <header className={styles.header}>
+        <div className={styles.logo}>
+          <img
+            className={styles.theHealersLogo}
+            loading="lazy"
+            alt=""
+            src="/the-healers-logo.svg"
+          />
+          <div className={styles.practitionerButton}>
+            <img
+              className={styles.theHealersIcon}
+              loading="lazy"
+              alt=""
+              src="/the-healers.svg"
+            />
+          </div>
+        </div>
+      </header>
     </section>
   );
 };

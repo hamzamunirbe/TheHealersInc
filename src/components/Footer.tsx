@@ -4,17 +4,19 @@ import styles from "./Footer.module.css";
 const Footer: FunctionComponent = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.companyFooter}>
+      <div className={styles.parent}>
         <div className={styles.div}>
-          <div className={styles.logo}>
+          <div className={styles.theHealersLogo1Parent}>
             <img
-              className={styles.theHealersLogo}
+              className={styles.theHealersLogo1}
+              loading="lazy"
               alt=""
               src="/the-healers-logo-1.svg"
             />
             <div className={styles.theHealersWrapper}>
               <img
                 className={styles.theHealersIcon}
+                loading="lazy"
                 alt=""
                 src="/the-healers-1.svg"
               />
@@ -26,14 +28,14 @@ const Footer: FunctionComponent = () => {
             recommendations.
           </div>
         </div>
-        <div className={styles.socialIcons}>
+        <div className={styles.logoInstance}>
           <div className={styles.company}>Company</div>
           <div className={styles.aboutUsContact}>About us</div>
           <div className={styles.aboutUsContact1}>Contact us</div>
           <div className={styles.aboutUsContact2}>Privacy Policy</div>
           <div className={styles.aboutUsContact3}>Terms and Conditions</div>
         </div>
-        <div className={styles.socialIcons1}>
+        <div className={styles.logoInstance1}>
           <div className={styles.company1}>Services</div>
           <div className={styles.aboutUsContact4}>Mind</div>
           <div className={styles.aboutUsContact5}>Body</div>
@@ -42,14 +44,14 @@ const Footer: FunctionComponent = () => {
             Psychologists and Counselors
           </div>
         </div>
-        <div className={styles.socialIcons2}>
+        <div className={styles.logoInstance2}>
           <div className={styles.company2}>Links</div>
           <div className={styles.aboutUsContact8}>Sitemap</div>
           <div className={styles.aboutUsContact9}>Security</div>
           <div className={styles.aboutUsContact10}>Support Center</div>
           <div className={styles.aboutUsContact11}>Cookie Preferences</div>
         </div>
-        <div className={styles.googlePlayIcon}>
+        <div className={styles.appStoreButton}>
           <div className={styles.button}>
             <img
               className={styles.appStoreFilled}
@@ -69,21 +71,18 @@ const Footer: FunctionComponent = () => {
                   src="/vector-2.svg"
                 />
               </div>
-              <div className={styles.uniqueReasons}>
+              <img className={styles.vectorIcon3} alt="" src="/vector-3.svg" />
+              <img className={styles.vectorIcon4} alt="" src="/vector-4.svg" />
+              <div className={styles.appStoreLogo}>
                 <div className={styles.getItOn}>GET IT ON</div>
                 <img
-                  className={styles.vectorIcon3}
+                  className={styles.vectorIcon5}
+                  loading="lazy"
                   alt=""
-                  src="/vector-3.svg"
+                  src="/vector-5.svg"
                 />
               </div>
-              <img
-                className={styles.organizedTasksIcon}
-                alt=""
-                src="/vector-4.svg"
-              />
-              <img className={styles.vectorIcon4} alt="" src="/vector-5.svg" />
-              <img className={styles.getItOnLabel} alt="" src="/vector-6.svg" />
+              <img className={styles.vectorIcon6} alt="" src="/vector-6.svg" />
             </div>
           </div>
         </div>
@@ -98,7 +97,7 @@ const Footer: FunctionComponent = () => {
         <div className={styles.copyrightAl}>
           © 2024 Copyright, All Right Reserved.
         </div>
-        <div className={styles.logotwitter}>
+        <div className={styles.socialWrapper}>
           <div className={styles.social}>
             <img
               className={styles.logoTwitterIcon}

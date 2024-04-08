@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
-import styles from "./Footer.module.css";
+import styles from "./Footer1.module.css";
 
-const Footer: FunctionComponent = () => {
+const Footer1: FunctionComponent = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.companyFooter}>
@@ -10,13 +10,13 @@ const Footer: FunctionComponent = () => {
             <img
               className={styles.theHealersLogo}
               alt=""
-              src="/the-healers-logo-1.svg"
+              src="/the-healers-logo-11.svg"
             />
             <div className={styles.theHealersWrapper}>
               <img
                 className={styles.theHealersIcon}
                 alt=""
-                src="/the-healers-1.svg"
+                src="/the-healers-11.svg"
               />
             </div>
           </div>
@@ -66,7 +66,7 @@ const Footer: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon2}
                   alt=""
-                  src="/vector-2.svg"
+                  src="/vector-3.svg"
                 />
               </div>
               <div className={styles.uniqueReasons}>
@@ -74,7 +74,7 @@ const Footer: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon3}
                   alt=""
-                  src="/vector-3.svg"
+                  src="/vector-5.svg"
                 />
               </div>
               <img
@@ -82,7 +82,7 @@ const Footer: FunctionComponent = () => {
                 alt=""
                 src="/vector-4.svg"
               />
-              <img className={styles.vectorIcon4} alt="" src="/vector-5.svg" />
+              <img className={styles.vectorIcon4} alt="" src="/vector-2.svg" />
               <img className={styles.getItOnLabel} alt="" src="/vector-6.svg" />
             </div>
           </div>
@@ -92,7 +92,7 @@ const Footer: FunctionComponent = () => {
         className={styles.lineCopyIcon}
         loading="lazy"
         alt=""
-        src="/line-copy.svg"
+        src="/line-copy1.svg"
       />
       <div className={styles.div1}>
         <div className={styles.copyrightAl}>
@@ -104,25 +104,25 @@ const Footer: FunctionComponent = () => {
               className={styles.logoTwitterIcon}
               loading="lazy"
               alt=""
-              src="/logotwitter.svg"
+              src="/logotwitter1.svg"
             />
             <img
               className={styles.logoFacebookIcon}
               loading="lazy"
               alt=""
-              src="/logofacebook.svg"
+              src="/logofacebook1.svg"
             />
             <img
               className={styles.logoInstagramIcon}
               loading="lazy"
               alt=""
-              src="/logoinstagram@2x.png"
+              src="/logoinstagram1@2x.png"
             />
             <img
               className={styles.logoLinkedinIcon}
               loading="lazy"
               alt=""
-              src="/logolinkedin@2x.png"
+              src="/logolinkedin1@2x.png"
             />
           </div>
         </div>
@@ -131,4 +131,4 @@ const Footer: FunctionComponent = () => {
   );
 };
 
-export default Footer;
+export default Footer1;

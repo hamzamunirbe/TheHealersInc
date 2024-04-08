@@ -13,48 +13,56 @@ const WhyChooseUs: FunctionComponent = () => {
       <div className={styles.content}>
         <div className={styles.reason01}>
           <img className={styles.icon} loading="lazy" alt="" src="/icon.svg" />
-          <div className={styles.organizedTasksParent}>
-            <b className={styles.organizedTasks}>
-              Global Reach, Local Connection
-            </b>
+          <div className={styles.text}>
+            <b className={styles.organizedTasks}>Booking and Scheduling</b>
             <div className={styles.withLotsOf}>
-              Expand globally, connect locally, reach diverse customers
-              effortlessly
+              Book appointments with confidence using our secure booking system.
             </div>
           </div>
         </div>
         <div className={styles.reason02}>
-          <img className={styles.icon1} alt="" src="/icon-1.svg" />
-          <div className={styles.organizedTasksGroup}>
-            <b className={styles.organizedTasks1}>
-              Effortless Setup and Management
-            </b>
+          <img
+            className={styles.icon1}
+            loading="lazy"
+            alt=""
+            src="/icon-1.svg"
+          />
+          <div className={styles.text1}>
+            <b className={styles.organizedTasks1}>Rating and Reviews</b>
             <div className={styles.withLotsOf1}>
-              Streamlined setup, simple management, user-friendly.
+              Make informed decisions by reading reviews and ratings from other
+              users.
             </div>
           </div>
         </div>
         <div className={styles.reason03}>
-          <img className={styles.icon2} alt="" src="/icon-1.svg" />
-          <div className={styles.organizedTasksContainer}>
-            <b className={styles.organizedTasks2}>
-              Marketing and Promotion Support
-            </b>
+          <img
+            className={styles.icon2}
+            loading="lazy"
+            alt=""
+            src="/icon-1.svg"
+          />
+          <div className={styles.text2}>
+            <b className={styles.organizedTasks2}>Vendor Dashboard</b>
             <div className={styles.withLotsOf2}>
-              Boost sales, enhance visibility, targeted marketing for increased
-              exposure.
+              Access a comprehensive dashboard to manage bookings, track
+              earnings.
             </div>
           </div>
         </div>
         <div className={styles.reason04}>
-          <img className={styles.icon3} alt="" src="/icon-1.svg" />
-          <div className={styles.frameDiv}>
+          <img
+            className={styles.icon3}
+            loading="lazy"
+            alt=""
+            src="/icon-1.svg"
+          />
+          <div className={styles.text3}>
             <b className={styles.organizedTasks3}>
-              Actionable Insights for Growth
+              Personalized Recommendations
             </b>
             <div className={styles.withLotsOf3}>
-              Track trends, optimize strategy, data-driven decisions for
-              business success.
+              Receive recommendations based on your past bookings and interests.
             </div>
           </div>
         </div>

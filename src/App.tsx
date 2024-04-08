@@ -5,9 +5,12 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import PractitionerLandingPage from "./pages/PractitionerLandingPage";
 import FirstLandingPage from "./pages/FirstLandingPage";
+import PractitionerLandingPage from "./pages/PractitionerLandingPage";
 import ConsumerLandingPage from "./pages/ConsumerLandingPage";
+import ConsumerSignIn from "./pages/ConsumerSignIn";
+import ConsumerForgotPassword from "./pages/ConsumerForgotPassword";
+import ConsumerResetPassword from "./pages/ConsumerResetPassword";
 
 function App() {
   const action = useNavigationType();
@@ -29,11 +32,23 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/first-landing-page":
+      case "/practitioner-landing-page":
         title = "";
         metaDescription = "";
         break;
       case "/consumer-landing-page":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/consumer-sign-in":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/consumer-forgot-password":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/consumer-reset-password":
         title = "";
         metaDescription = "";
         break;
@@ -55,9 +70,21 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<PractitionerLandingPage />} />
-      <Route path="/first-landing-page" element={<FirstLandingPage />} />
+      <Route path="/" element={<FirstLandingPage />} />
+      <Route
+        path="/practitioner-landing-page"
+        element={<PractitionerLandingPage />}
+      />
       <Route path="/consumer-landing-page" element={<ConsumerLandingPage />} />
+      <Route path="/consumer-sign-in" element={<ConsumerSignIn />} />
+      <Route
+        path="/consumer-forgot-password"
+        element={<ConsumerForgotPassword />}
+      />
+      <Route
+        path="/consumer-reset-password"
+        element={<ConsumerResetPassword />}
+      />
     </Routes>
   );
 }

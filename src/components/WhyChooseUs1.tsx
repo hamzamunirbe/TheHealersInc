@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
-import styles from "./WhyChooseUs.module.css";
+import styles from "./WhyChooseUs1.module.css";
 
-const WhyChooseUs: FunctionComponent = () => {
+const WhyChooseUs1: FunctionComponent = () => {
   return (
     <section className={styles.whyChooseUs}>
       <div className={styles.title}>
@@ -63,4 +63,4 @@ const WhyChooseUs: FunctionComponent = () => {
   );
 };
 
-export default WhyChooseUs;
+export default WhyChooseUs1;

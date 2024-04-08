@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
-import styles from "./FrameComponent.module.css";
+import styles from "./FrameComponent1.module.css";
 
-const FrameComponent: FunctionComponent = () => {
+const FrameComponent1: FunctionComponent = () => {
   return (
     <section className={styles.heroWrapper}>
       <div className={styles.hero}>
@@ -37,4 +37,4 @@ const FrameComponent: FunctionComponent = () => {
   );
 };
 
-export default FrameComponent;
+export default FrameComponent1;

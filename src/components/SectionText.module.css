@@ -84,7 +84,7 @@
   align-items: center;
   justify-content: center;
   padding: var(--padding-xs) var(--padding-3xs);
-  color: var(--default-white);
+  color: var(--white);
 }
 .iconJamIconsOutlineL2 {
   height: 24px;
@@ -186,7 +186,7 @@
   z-index: 3;
   text-align: center;
   font-size: var(--body-xs-size);
-  color: var(--default-white);
+  color: var(--white);
 }
 .button3 {
   height: 48px;
@@ -218,7 +218,7 @@
   text-align: left;
   font-size: var(--caption-m-size);
   color: var(--blue-gray-900);
-  font-family: var(--body-xs);
+  font-family: var(--heading-2);
 }
 @media screen and (max-width: 750px) {
   .mainHeadline {

@@ -10,14 +10,14 @@ const Header: FunctionComponent = () => {
             className={styles.theHealersLogo}
             loading="lazy"
             alt=""
-            src="/the-healers-logo.svg"
+            src="/the-healers-logo1.svg"
           />
           <div className={styles.theHealersWrapper}>
             <img
               className={styles.theHealersIcon}
               loading="lazy"
               alt=""
-              src="/the-healers.svg"
+              src="/the-healers1.svg"
             />
           </div>
         </div>

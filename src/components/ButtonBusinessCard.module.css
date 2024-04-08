@@ -130,7 +130,7 @@
   background-color: var(--m3-sys-light-primary);
   overflow: hidden;
   flex-direction: column;
-  color: var(--default-white);
+  color: var(--white);
 }
 .actions {
   width: 328px;
@@ -176,7 +176,7 @@
   gap: var(--gap-base);
   font-size: var(--m3-label-large-size);
   color: var(--neutral-8);
-  font-family: var(--body-xs);
+  font-family: var(--heading-2);
 }
 .buttonbusinessCard,
 .mediaTextContent,
@@ -192,7 +192,7 @@
 .buttonbusinessCard {
   width: 298px;
   border-radius: var(--br-xl);
-  background-color: var(--default-white);
+  background-color: var(--white);
   box-shadow: var(--m3-elevation-light-1);
   flex-shrink: 0;
   flex-direction: row;

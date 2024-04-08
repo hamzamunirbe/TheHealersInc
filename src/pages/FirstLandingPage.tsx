@@ -1,19 +1,19 @@
 import { FunctionComponent } from "react";
-import FrameComponent1 from "../components/FrameComponent1";
+import FrameComponent from "../components/FrameComponent";
 import PractionerAndVendorDiv from "../components/PractionerAndVendorDiv";
-import WhyChooseUs1 from "../components/WhyChooseUs1";
+import WhyChooseUs from "../components/WhyChooseUs";
 import TheHealersApp from "../components/TheHealersApp";
-import Footer1 from "../components/Footer1";
+import Footer from "../components/Footer";
 import styles from "./FirstLandingPage.module.css";
 
 const FirstLandingPage: FunctionComponent = () => {
   return (
     <div className={styles.firstLandingPage}>
-      <FrameComponent1 />
+      <FrameComponent />
       <PractionerAndVendorDiv />
-      <WhyChooseUs1 />
+      <WhyChooseUs />
       <TheHealersApp />
-      <Footer1 />
+      <Footer />
     </div>
   );
 };

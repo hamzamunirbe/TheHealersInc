@@ -1,33 +1,34 @@
-.theHealersIcon,
-.theHealersLogo {
+.theHealersLogo1 {
+  height: 46.9px;
+  width: 47.4px;
   position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.theHealersLogo {
-  height: 48px;
-  width: 48.2px;
 }
 .theHealersIcon {
   align-self: stretch;
-  height: 22.9px;
+  height: 22.4px;
+  position: relative;
   max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .theHealersWrapper {
+  height: 34.6px;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 var(--padding-smi-5);
+  padding: 0 0 var(--padding-smi-2);
+  box-sizing: border-box;
 }
-.logo {
-  width: 240px;
+.theHealersLogo1Parent {
+  width: 236px;
+  height: 46.9px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
-  gap: var(--gap-smi-6);
+  gap: var(--gap-smi-4);
 }
 .withLotsOf {
   align-self: stretch;
@@ -67,7 +68,7 @@
   position: relative;
   letter-spacing: -0.2px;
 }
-.socialIcons {
+.logoInstance {
   width: 186.8px;
   overflow: hidden;
   flex-shrink: 0;
@@ -99,7 +100,7 @@
   position: relative;
   letter-spacing: -0.2px;
 }
-.socialIcons1 {
+.logoInstance1 {
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -125,7 +126,7 @@
   position: relative;
   letter-spacing: -0.2px;
 }
-.socialIcons2 {
+.logoInstance2 {
   width: 186.8px;
   overflow: hidden;
   flex-shrink: 0;
@@ -135,16 +136,18 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
-.appStoreFilled {
+.appStoreFilled,
+.button {
   align-self: stretch;
   height: 40px;
+}
+.appStoreFilled {
   position: relative;
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
 }
 .button {
-  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -168,20 +171,41 @@
   z-index: 1;
 }
 .vectorIcon2 {
-  width: 16.2px;
-  height: 13.4px;
+  width: 11.1px;
+  height: 21.5px;
   position: relative;
-  z-index: 2;
+  z-index: 4;
 }
 .vectorWrapper {
+  height: 24.7px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 var(--padding-11xs-2);
+  padding: 0 0 var(--padding-9xs-2);
+  box-sizing: border-box;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  margin: 0 !important;
+}
+.vectorIcon3 {
+  height: 13.4px;
+  width: 16.2px;
+  bottom: 7.2px;
+  left: 10.1px;
+  z-index: 2;
+}
+.vectorIcon4 {
+  height: 11px;
+  width: 12.5px;
+  top: calc(50% - 5.5px);
+  left: 20.5px;
+  z-index: 3;
 }
 .getItOn,
-.vectorIcon3 {
+.vectorIcon5 {
   position: relative;
   z-index: 2;
 }
@@ -190,14 +214,15 @@
   -webkit-text-stroke: 0.2px #fff;
   min-width: 40px;
 }
-.vectorIcon3 {
+.vectorIcon5 {
   align-self: stretch;
   height: 17px;
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
 }
-.uniqueReasons {
+.appStoreLogo {
+  align-self: stretch;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -205,64 +230,47 @@
   justify-content: flex-start;
   gap: var(--gap-11xs-4);
 }
-.organizedTasksIcon {
-  height: 11px;
-  width: 12.5px;
-  position: absolute;
-  margin: 0 !important;
-  top: calc(50% - 5.5px);
-  left: 20.5px;
-  z-index: 3;
-}
-.getItOnLabel,
-.vectorIcon4 {
-  position: absolute;
-  margin: 0 !important;
-  left: 10px;
-}
-.vectorIcon4 {
-  height: 21.5px;
-  width: 11.1px;
-  bottom: 9.2px;
-  z-index: 4;
-}
-.getItOnLabel {
+.vectorIcon6 {
   height: 12.9px;
   width: 16.3px;
+  position: absolute;
+  margin: 0 !important;
   top: 7.1px;
+  left: 10px;
   z-index: 5;
 }
 .googlePlay {
-  flex: 1;
   display: flex;
-  flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
   padding: var(--padding-8xs-6) var(--padding-3xs-2) var(--padding-7xs)
-    var(--padding-2xs-1);
+    var(--padding-3xs);
   position: relative;
-  gap: var(--gap-mini-6);
-}
-.button1 {
-  align-self: stretch;
-  flex-direction: row;
+  gap: var(--gap-lgi-8);
 }
 .button1,
-.companyFooter,
-.googlePlayIcon {
+.googlePlay {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+}
+.appStoreButton,
+.button1,
+.parent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.googlePlayIcon {
+.appStoreButton {
+  height: 96px;
   width: 135px;
   flex-direction: column;
   gap: var(--gap-base);
   font-size: var(--font-size-4xs-4);
-  color: var(--default-white);
+  color: var(--white);
   font-family: var(--font-open-sans);
 }
-.companyFooter {
+.parent {
   flex-direction: row;
   gap: var(--gap-42xl-6);
   max-width: 100%;
@@ -274,7 +282,7 @@
 }
 .lineCopyIcon {
   width: 1240px;
-  max-height: 100%;
+  height: 2px;
 }
 .copyrightAl {
   flex: 1;
@@ -298,6 +306,7 @@
 }
 .social {
   align-self: stretch;
+  height: 24px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -306,11 +315,11 @@
 }
 .div1,
 .footer,
-.logotwitter {
+.socialWrapper {
   display: flex;
   justify-content: flex-start;
 }
-.logotwitter {
+.socialWrapper {
   width: 192px;
   flex-direction: column;
   align-items: flex-start;
@@ -332,7 +341,7 @@
 }
 .footer {
   align-self: stretch;
-  background-color: var(--default-white);
+  background-color: var(--white);
   flex-direction: column;
   align-items: center;
   padding: var(--padding-21xl) var(--padding-xl);
@@ -344,12 +353,12 @@
   font-family: var(--web-secondary-buttonlarge);
 }
 @media screen and (max-width: 1225px) {
-  .companyFooter {
+  .parent {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 750px) {
-  .companyFooter {
+  .parent {
     gap: 61.6px 31px;
   }
   .footer {
@@ -360,7 +369,7 @@
   .div {
     gap: 16px 32px;
   }
-  .companyFooter {
+  .parent {
     gap: 61.6px 15px;
   }
   .footer {

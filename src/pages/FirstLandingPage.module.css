@@ -1,7 +1,7 @@
 .firstLandingPage {
   width: 100%;
   position: relative;
-  background-color: var(--default-white);
+  background-color: var(--white);
   overflow: hidden;
   display: flex;
   flex-direction: column;

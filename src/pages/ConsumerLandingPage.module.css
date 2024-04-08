@@ -87,7 +87,7 @@
   line-height: 26px;
   display: inline-block;
   font-family: var(--web-secondary-buttonlarge);
-  color: var(--default-white);
+  color: var(--white);
   text-align: center;
   min-width: 47px;
 }
@@ -134,14 +134,14 @@
   line-height: 26px;
   display: inline-block;
   font-family: var(--web-secondary-buttonlarge);
-  color: var(--default-white);
+  color: var(--white);
   text-align: center;
   min-width: 109px;
   white-space: nowrap;
 }
 .button1 {
   cursor: pointer;
-  border: 2px solid var(--default-white);
+  border: 2px solid var(--white);
   padding: var(--padding-mid) var(--padding-5xl);
   background-color: transparent;
   flex: 1;
@@ -211,7 +211,7 @@
 .input {
   width: 196px;
   border-radius: var(--br-7xs);
-  background-color: var(--default-white);
+  background-color: var(--white);
   border: 1px solid var(--color-whitesmoke-100);
   box-sizing: border-box;
   overflow: hidden;
@@ -253,7 +253,7 @@
   cursor: pointer;
   border: 1px solid var(--color-whitesmoke-100);
   padding: var(--padding-base) var(--padding-mini);
-  background-color: var(--default-white);
+  background-color: var(--white);
   border-radius: var(--br-7xs);
 }
 .wrapperIcon2 {
@@ -279,7 +279,7 @@
   line-height: 26px;
   display: inline-block;
   font-family: var(--web-secondary-buttonlarge);
-  color: var(--default-white);
+  color: var(--white);
   text-align: center;
   min-width: 62px;
 }
@@ -304,7 +304,7 @@
 .inputParent {
   align-self: stretch;
   border-radius: var(--br-3xs);
-  background-color: #f28500;
+  background-color: var(--consumer-colors-primary);
   overflow-x: auto;
   justify-content: flex-start;
   padding: var(--padding-5xl) var(--padding-13xl);
@@ -329,6 +329,7 @@
   flex-direction: row;
   align-items: flex-start;
   color: var(--color-gray-200);
+  font-family: var(--font-gilroy-regular);
 }
 .branchingOutwards,
 .search {
@@ -376,7 +377,7 @@
   gap: 148px;
   text-align: center;
   font-size: var(--font-size-41xl);
-  color: var(--default-white);
+  color: var(--white);
   font-family: var(--web-secondary-buttonlarge);
 }
 .imageIcon {
@@ -404,6 +405,7 @@
   font-size: var(--font-size-lgi);
   letter-spacing: -0.2px;
   line-height: 32px;
+  font-family: var(--font-gilroy-regular);
   color: var(--color-gray-400);
   mix-blend-mode: normal;
 }
@@ -580,6 +582,7 @@
   align-items: flex-start;
   padding: 0 var(--padding-63xl) 0 0;
   font-size: var(--font-size-2xl);
+  font-family: var(--web-secondary-buttonlarge);
 }
 .about,
 .contentRight {
@@ -606,9 +609,9 @@
   padding: 0 var(--padding-81xl);
   gap: var(--gap-37xl);
   text-align: left;
-  font-size: var(--font-size-29xl);
+  font-size: var(--web-primary-h2-primary-dm-sans-size);
   color: var(--color-gray-100);
-  font-family: var(--web-secondary-buttonlarge);
+  font-family: var(--font-gilroy-bold);
 }
 .exploreBestPractitioners {
   margin: 0;
@@ -752,7 +755,7 @@
   background-color: var(--m3-sys-light-primary);
   overflow: hidden;
   flex-direction: column;
-  color: var(--default-white);
+  color: var(--white);
 }
 .actions {
   width: 328px;
@@ -805,7 +808,7 @@
   gap: var(--gap-base);
   font-size: var(--m3-label-large-size);
   color: var(--neutral-8);
-  font-family: var(--body-xs);
+  font-family: var(--heading-2);
 }
 .buttonbusinessCard,
 .mediaTextContent,
@@ -821,7 +824,7 @@
 .buttonbusinessCard {
   width: 298px;
   border-radius: var(--br-xl);
-  background-color: var(--default-white);
+  background-color: var(--white);
   box-shadow: var(--m3-elevation-light-1);
   flex-shrink: 0;
   flex-direction: row;
@@ -979,7 +982,7 @@
   gap: 32px 30px;
   min-height: 332px;
   text-align: center;
-  color: var(--default-white);
+  color: var(--white);
 }
 .dataSpliter {
   flex-direction: column;
@@ -1065,7 +1068,7 @@
 }
 .outputFilter {
   border-radius: var(--br-base);
-  background-color: var(--default-white);
+  background-color: var(--white);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1165,7 +1168,7 @@
   flex-direction: row;
   justify-content: flex-end;
   text-align: center;
-  color: var(--default-white);
+  color: var(--white);
 }
 .inputSelector {
   flex-direction: column;
@@ -1179,7 +1182,8 @@
   box-sizing: border-box;
   min-width: 243px;
   font-size: var(--font-size-lgi);
-  color: var(--color-black);
+  color: var(--m3-black);
+  font-family: var(--font-gilroy-bold);
 }
 .consumerLandingPage,
 .theHealersApp,
@@ -1204,7 +1208,7 @@
 .consumerLandingPage {
   width: 100%;
   position: relative;
-  background-color: var(--default-white);
+  background-color: var(--white);
   overflow: hidden;
   flex-direction: column;
   line-height: normal;
@@ -1255,7 +1259,7 @@
     gap: 732.2px 183px;
   }
   .findADream {
-    font-size: var(--font-size-29xl);
+    font-size: var(--web-primary-h2-primary-dm-sans-size);
     line-height: 52px;
   }
   .branchingOutwards {
@@ -1268,7 +1272,7 @@
     min-width: 100%;
   }
   .h2 {
-    font-size: 38px;
+    font-size: var(--font-size-19xl);
     line-height: 46px;
   }
   .frameDiv,

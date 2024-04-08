@@ -76,7 +76,7 @@ const Footer2: FunctionComponent = () => {
                 <img
                   className={styles.dataMergeIcon}
                   alt=""
-                  src="/vector-2.svg"
+                  src="/vector-3.svg"
                 />
               </div>
               <div className={styles.conditionChecker}>
@@ -85,7 +85,7 @@ const Footer2: FunctionComponent = () => {
                   className={styles.vectorIcon}
                   loading="lazy"
                   alt=""
-                  src="/vector-3.svg"
+                  src="/vector-5.svg"
                 />
               </div>
               <img className={styles.vectorIcon1} alt="" src="/vector-4.svg" />
@@ -99,7 +99,7 @@ const Footer2: FunctionComponent = () => {
         className={styles.lineCopyIcon}
         loading="lazy"
         alt=""
-        src="/line-copy.svg"
+        src="/line-copy1.svg"
       />
       <div className={styles.div}>
         <div className={styles.copyrightAl}>
@@ -111,24 +111,24 @@ const Footer2: FunctionComponent = () => {
               className={styles.logoTwitterIcon}
               loading="lazy"
               alt=""
-              src="/logotwitter.svg"
+              src="/logotwitter1.svg"
             />
             <img
               className={styles.logoFacebookIcon}
               loading="lazy"
               alt=""
-              src="/logofacebook.svg"
+              src="/logofacebook1.svg"
             />
             <img
               className={styles.logoInstagramIcon}
               loading="lazy"
               alt=""
-              src="/logoinstagram@2x.png"
+              src="/logoinstagram1@2x.png"
             />
             <img
               className={styles.logoLinkedinIcon}
               alt=""
-              src="/logolinkedin@2x.png"
+              src="/logolinkedin1@2x.png"
             />
           </div>
         </div>
