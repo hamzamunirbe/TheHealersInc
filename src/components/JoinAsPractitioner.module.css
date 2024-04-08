@@ -32,7 +32,7 @@
   line-height: 26px;
   display: inline-block;
   font-family: var(--web-secondary-buttonlarge);
-  color: var(--white);
+  color: var(--default-white);
   text-align: center;
 }
 .button {
@@ -76,7 +76,7 @@
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-5xl);
-  color: var(--white);
+  color: var(--default-white);
   font-family: var(--web-secondary-buttonlarge);
 }
 @media screen and (max-width: 450px) {

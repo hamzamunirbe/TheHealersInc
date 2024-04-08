@@ -1,0 +1,229 @@
+.ourStory {
+  position: relative;
+  letter-spacing: 1.63px;
+  text-transform: uppercase;
+}
+.weKnowHow {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  letter-spacing: -1.2px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-gray-100);
+}
+.getItOnButton,
+.googlePlayButton {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.getItOnButton {
+  width: 515px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.googlePlayButton {
+  width: 845px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-2xl);
+  box-sizing: border-box;
+}
+.imgIcon {
+  width: 445px;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  object-fit: cover;
+}
+.imagesIcon,
+.imgIcon,
+.weShareCommon {
+  position: relative;
+  max-width: 100%;
+}
+.imagesIcon {
+  align-self: stretch;
+  height: 377px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.weShareCommon {
+  width: 490px;
+  letter-spacing: -0.2px;
+  line-height: 29px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.frameWrapper,
+.imagesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.imagesParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 100px;
+}
+.frameWrapper {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xl);
+  box-sizing: border-box;
+  min-width: 370px;
+}
+.imgParent,
+.practitionerLandingPageInner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.imgParent {
+  width: 1110px;
+  align-items: flex-end;
+  gap: 95px;
+}
+.practitionerLandingPageInner {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-37xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--web-secondary-buttonlarge-size);
+  color: var(--color-gray-400);
+  font-family: var(--web-secondary-buttonlarge);
+}
+.whyChooseUs {
+  width: 589px;
+  position: relative;
+  letter-spacing: 1.63px;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 100%;
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  min-width: 461px;
+  max-width: 100%;
+}
+.imageIcon {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 24px;
+  transform: scale(1.168);
+}
+.wrapperImage {
+  height: 575px;
+  width: 451.1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.practitionerLandingPage,
+.theHealersApp {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  font-family: var(--web-secondary-buttonlarge);
+}
+.theHealersApp {
+  align-self: stretch;
+  background-color: var(--vendor-colors-primary-1);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-37xl) var(--padding-81xl);
+  box-sizing: border-box;
+  gap: 80px;
+  max-width: 100%;
+  color: var(--consumer-colors-monochromatic);
+}
+.practitionerLandingPage {
+  width: 100%;
+  position: relative;
+  background-color: #fdfdff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--vendor-colors-triadic);
+}
+@media screen and (max-width: 1225px) {
+  .imgParent {
+    gap: 95px 47px;
+  }
+  .imageIcon {
+    flex: 1;
+  }
+  .theHealersApp {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .imgIcon {
+    flex: 1;
+  }
+  .imgParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .weKnowHow {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .imagesParent {
+    gap: 50px 100px;
+  }
+  .imgParent {
+    gap: 95px 24px;
+  }
+  .practitionerLandingPageInner {
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .content {
+    min-width: 100%;
+  }
+  .theHealersApp {
+    gap: 80px 40px;
+    padding: var(--padding-17xl) var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .weKnowHow {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .imagesParent {
+    gap: 25px 100px;
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .theHealersApp {
+    gap: 80px 20px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,213 @@
+.monogramIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.header1,
+.subhead {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.subhead {
+  font-size: var(--m3-label-large-size);
+  line-height: 22px;
+  color: var(--neutral-7);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content,
+.header,
+.text {
+  display: flex;
+  justify-content: flex-start;
+}
+.text {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.content,
+.header {
+  flex-direction: row;
+  align-items: center;
+}
+.content {
+  flex: 1;
+  gap: var(--gap-base);
+}
+.header {
+  align-self: stretch;
+  padding: var(--padding-base);
+}
+.mediaIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.media {
+  align-self: stretch;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.supportingText {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-family: var(--web-secondary-buttonlarge);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.labelText,
+.secondaryAction,
+.stateLayer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.labelText {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.secondaryAction,
+.stateLayer {
+  box-sizing: border-box;
+}
+.stateLayer {
+  width: 99px;
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+.secondaryAction {
+  height: 40px;
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--m3-sys-light-outline);
+  overflow: hidden;
+  flex-direction: column;
+}
+.labelText1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.labelText1,
+.primaryAction,
+.stateLayer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer1 {
+  width: 99px;
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  box-sizing: border-box;
+}
+.primaryAction {
+  height: 40px;
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-primary);
+  overflow: hidden;
+  flex-direction: column;
+  color: var(--default-white);
+}
+.actions {
+  width: 328px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  text-align: center;
+  color: var(--m3-sys-light-primary);
+}
+.text1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 44px;
+}
+.iconWrapper,
+.texttitle {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.iconWrapper {
+  background-color: var(--hitbox);
+  flex-direction: column;
+  justify-content: center;
+}
+.texttitle {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--button-m-size);
+  color: var(--neutral-10);
+}
+.textContent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xl) var(--padding-base);
+  gap: var(--gap-base);
+  font-size: var(--m3-label-large-size);
+  color: var(--neutral-8);
+  font-family: var(--body-xs);
+}
+.buttonbusinessCard,
+.mediaTextContent,
+.textContent {
+  display: flex;
+  justify-content: flex-start;
+}
+.mediaTextContent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonbusinessCard {
+  width: 298px;
+  border-radius: var(--br-xl);
+  background-color: var(--default-white);
+  box-shadow: var(--m3-elevation-light-1);
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--caption-m-size);
+  color: var(--neutral-10);
+  font-family: var(--web-secondary-buttonlarge);
+}
+@media screen and (max-width: 450px) {
+  .header1 {
+    font-size: var(--button-m-size);
+    line-height: 24px;
+  }
+  .actions {
+    flex-wrap: wrap;
+  }
+}
