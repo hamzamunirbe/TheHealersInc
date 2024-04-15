@@ -1,6 +1,6 @@
 const FrameComponent10 = () => {
   return (
-    <footer className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-mid text-gray-300 font-gilroy-regular">
+    <footer className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-mid text-gray-300 font-web-primary-h3-primary-dm-sans">
       <div className="w-[1200px] flex flex-col items-start justify-start gap-[32px] max-w-full mq750:gap-[16px]">
         <div className="flex flex-row items-start justify-start gap-[54.9px] lg:flex-wrap mq750:gap-[27px]">
           <div className="w-[248px] flex flex-col items-start justify-start gap-[32px] text-mini text-gray-900">
@@ -163,12 +163,12 @@ const FrameComponent10 = () => {
                 <img
                   className="h-6 w-6 relative object-cover min-h-[24px]"
                   alt=""
-                  src="/logoinstagram@2x.png"
+                  src="/logoinstagram2@2x.png"
                 />
                 <img
                   className="h-6 w-6 relative object-cover min-h-[24px]"
                   alt=""
-                  src="/logolinkedin@2x.png"
+                  src="/logolinkedin1@2x.png"
                 />
               </div>
             </div>

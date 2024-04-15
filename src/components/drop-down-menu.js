@@ -288,7 +288,7 @@ const DropDownMenu = ({
   }, [propHeight9, propDisplay9]);
 
   return (
-    <div className="self-stretch h-72 overflow-hidden shrink-0 flex flex-col items-center justify-start text-left text-sm text-m3-black font-web-primary-h2-primary-dm-sans">
+    <div className="self-stretch h-72 overflow-hidden shrink-0 flex flex-col items-center justify-start text-left text-sm text-m3-black font-web-primary-h3-primary-dm-sans">
       <div
         className="w-[296px] flex-1 box-border flex flex-col items-start justify-center py-3 px-4 text-neutral-11 border-b-[2px] border-solid border-whitesmoke-200"
         style={radioButtonStyle}

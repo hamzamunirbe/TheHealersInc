@@ -1,6 +1,6 @@
-const NavBar1 = () => {
+const NavBar2 = () => {
   return (
-    <header className="absolute top-[0px] left-[0px] bg-neutral-1 shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] box-border w-[1440px] flex flex-row items-center justify-between py-6 px-[120px] text-left text-base text-m3-black font-web-primary-h2-primary-dm-sans border-[1px] border-solid border-gainsboro-100">
+    <header className="absolute top-[0px] left-[0px] bg-neutral-1 shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] box-border w-[1440px] flex flex-row items-center justify-between py-6 px-[120px] text-left text-base text-m3-black font-web-primary-h3-primary-dm-sans border-[1px] border-solid border-gainsboro-100">
       <div className="w-[236px] relative h-[47px]">
         <img
           className="absolute h-full w-[20.08%] top-[0%] right-[79.92%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
@@ -45,4 +45,4 @@ const NavBar1 = () => {
   );
 };
 
-export default NavBar1;
+export default NavBar2;

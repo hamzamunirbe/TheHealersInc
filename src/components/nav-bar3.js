@@ -1,6 +1,6 @@
 const NavBar3 = () => {
   return (
-    <header className="self-stretch bg-neutral-1 shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] flex flex-row items-start justify-center py-6 px-5 gap-[704px] top-[0] z-[99] sticky text-left text-base text-m3-black font-web-primary-h2-primary-dm-sans border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq450:gap-[88px] mq750:gap-[176px]">
+    <header className="self-stretch bg-neutral-1 shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] flex flex-row items-start justify-center py-6 px-5 gap-[704px] top-[0] z-[99] sticky text-left text-base text-m3-black font-web-primary-h3-primary-dm-sans border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq450:gap-[88px] mq750:gap-[176px]">
       <div className="w-[236px] flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border">
         <div className="self-stretch flex flex-row items-end justify-start gap-[12.4px]">
           <img

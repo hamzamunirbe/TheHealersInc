@@ -20,7 +20,7 @@ const ConsumerPreferences2 = () => {
   }, [navigate]);
 
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[75px] box-border gap-[80px] leading-[normal] tracking-[normal] text-left text-13xl text-gray-400 font-web-primary-h2-primary-dm-sans mq450:gap-[20px] mq750:gap-[40px]">
+    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[75px] box-border gap-[80px] leading-[normal] tracking-[normal] text-left text-13xl text-gray-400 font-web-primary-h3-primary-dm-sans mq450:gap-[20px] mq750:gap-[40px]">
       <NavBar />
       <div className="w-[868px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
         <div className="w-[628px] flex flex-row items-start justify-center gap-[56px] max-w-full mq750:flex-wrap mq750:gap-[28px]">
@@ -56,7 +56,7 @@ const ConsumerPreferences2 = () => {
                 This will help us create your personalized experience.
               </div>
             </div>
-            <div className="self-stretch flex flex-col items-start justify-start pt-0 px-3 pb-0 box-border relative max-w-full text-xs text-text-secondary font-components-helper-text">
+            <div className="self-stretch flex flex-col items-start justify-start pt-0 px-3 pb-0 box-border relative max-w-full text-xs text-text-secondary font-h5-medium">
               <div className="self-stretch rounded-borderradius box-border flex flex-col items-start justify-start max-w-full text-base text-text-primary border-[1px] border-solid border-components-input-outlined-enabledborder">
                 <div className="self-stretch overflow-hidden flex flex-row items-center justify-start py-4 px-0 box-border relative min-w-[24px] min-h-[24px] max-w-full">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border z-[0]">

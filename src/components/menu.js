@@ -1,6 +1,6 @@
 const Menu = () => {
   return (
-    <div className="w-[220px] relative flex flex-col items-start justify-start max-w-full max-h-full overflow-auto text-left text-base text-neutral-8 font-components-helper-text">
+    <div className="w-[220px] relative flex flex-col items-start justify-start max-w-full max-h-full overflow-auto text-left text-base text-neutral-8 font-h5-medium">
       <div className="self-stretch rounded-borderradius bg-neutral-1 shadow-[0px_3px_14px_2px_rgba(0,_0,_0,_0.12),_0px_8px_10px_1px_rgba(0,_0,_0,_0.14),_0px_5px_5px_-3px_rgba(0,_0,_0,_0.2)] overflow-hidden flex flex-col items-start justify-start">
         <div className="self-stretch rounded overflow-hidden flex flex-col items-start justify-start">
           <div className="self-stretch flex flex-col items-start justify-start py-2 px-0 gap-[8px]">

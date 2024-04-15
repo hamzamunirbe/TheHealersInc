@@ -1,9 +1,9 @@
-import NavBar1 from "../components/nav-bar1";
+import NavBar2 from "../components/nav-bar11";
 
 const ConsumerPreferences4 = () => {
   return (
-    <div className="w-full relative bg-neutral-1 h-[1024px] overflow-hidden text-center text-29xl text-gray-400 font-web-primary-h2-primary-dm-sans">
-      <NavBar1 />
+    <div className="w-full relative bg-neutral-1 h-[1024px] overflow-hidden text-center text-29xl text-gray-400 font-web-primary-h3-primary-dm-sans">
+      <NavBar2 />
       <div className="absolute top-[calc(50%_+_117px)] left-[calc(50%_-_423px)] flex flex-col items-center justify-start gap-[24px]">
         <h2 className="m-0 relative text-inherit leading-[64px] font-bold font-inherit">
           Let’s design your unique Experience
@@ -19,7 +19,7 @@ const ConsumerPreferences4 = () => {
               <img
                 className="w-3.5 relative h-3.5 overflow-hidden shrink-0 object-cover"
                 alt=""
-                src="/wrapper@2x.png"
+                src="/wrapper2@2x.png"
               />
             </div>
             <b className="relative leading-[26px]">Sounds Good</b>
@@ -29,7 +29,7 @@ const ConsumerPreferences4 = () => {
               <img
                 className="w-3.5 relative h-3.5 overflow-hidden shrink-0 object-cover"
                 alt=""
-                src="/wrapper@2x.png"
+                src="/wrapper1@2x.png"
               />
             </div>
             <b className="relative leading-[26px]">No Thanks</b>
@@ -40,7 +40,7 @@ const ConsumerPreferences4 = () => {
         <img
           className="absolute top-[0px] left-[calc(50%_-_600px)] rounded-2xl w-[1200px] h-[424px] object-cover"
           alt=""
-          src="/image@2x.png"
+          src="/image5@2x.png"
         />
       </div>
     </div>

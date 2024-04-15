@@ -1,6 +1,6 @@
-const WhyChooseUs1 = () => {
+const WhyChooseUs = () => {
   return (
-    <section className="self-stretch flex flex-col items-center justify-center py-14 px-0 box-border gap-[56px] max-w-full text-center text-smi text-consumer-colors-monochromatic font-web-primary-h2-primary-dm-sans mq750:gap-[28px] mq750:pt-9 mq750:pb-9 mq750:box-border">
+    <section className="self-stretch flex flex-col items-center justify-center py-14 px-0 box-border gap-[56px] max-w-full text-center text-smi text-consumer-colors-monochromatic font-web-primary-h3-primary-dm-sans mq750:gap-[28px] mq750:pt-9 mq750:pb-9 mq750:box-border">
       <div className="w-[1240px] overflow-hidden flex flex-col items-center justify-center py-0 px-5 box-border gap-[24px] max-w-full">
         <b className="w-[130px] relative tracking-[1.63px] uppercase inline-block">
           Why choose us
@@ -81,4 +81,4 @@ const WhyChooseUs1 = () => {
   );
 };
 
-export default WhyChooseUs1;
+export default WhyChooseUs;

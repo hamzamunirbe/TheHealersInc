@@ -14,7 +14,7 @@ const PreferencesTile2 = ({
 
   return (
     <div
-      className="self-stretch rounded-2xl bg-neutral-1 shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] flex flex-col items-start justify-start py-[34px] px-[34.5px] gap-[16px] cursor-pointer text-center text-lg text-neutral-8 font-web-primary-h2-primary-dm-sans"
+      className="self-stretch rounded-2xl bg-neutral-1 shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] flex flex-col items-start justify-start py-[34px] px-[34.5px] gap-[16px] cursor-pointer text-center text-lg text-neutral-8 font-web-primary-h3-primary-dm-sans"
       onClick={onPreferencesTileContainer1Click}
     >
       <div className="flex flex-row items-start justify-start py-0 pr-[25px] pl-[25.5px]">

@@ -1,4 +1,4 @@
-import NavBar2 from "../components/nav-bar2";
+import NavBar21 from "../components/nav-bar2";
 import SearchModule from "../components/search-module";
 import ConstantModifier from "../components/constant-modifier";
 import InputProcessor from "../components/input-processor";
@@ -7,7 +7,7 @@ import FrameComponent6 from "../components/frame-component6";
 const SearchResultsPractitioners = () => {
   return (
     <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[40px] leading-[normal] tracking-[normal] mq750:gap-[20px]">
-      <NavBar2 />
+      <NavBar21 />
       <SearchModule icon={false} />
       <ConstantModifier />
       <main className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">

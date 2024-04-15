@@ -1,6 +1,6 @@
-const Footer = () => {
+const Footer1 = () => {
   return (
-    <footer className="self-stretch bg-neutral-1 flex flex-col items-center justify-start py-10 px-5 box-border gap-[32px] max-w-full text-left text-mid text-gray-300 font-web-primary-h2-primary-dm-sans mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:gap-[16px]">
+    <footer className="self-stretch bg-neutral-1 flex flex-col items-center justify-start py-10 px-5 box-border gap-[32px] max-w-full text-left text-mid text-gray-300 font-web-primary-h3-primary-dm-sans mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:gap-[16px]">
       <div className="flex flex-row items-start justify-start gap-[61.6px] max-w-full mq450:gap-[15px] mq750:gap-[31px] mq1225:flex-wrap">
         <div className="w-64 overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[32px] text-mini text-gray-900 mq450:gap-[16px]">
           <div className="w-60 flex flex-row items-end justify-start gap-[12.6px]">
@@ -78,28 +78,38 @@ const Footer = () => {
               className="self-stretch h-10 relative max-w-full overflow-hidden shrink-0"
               loading="lazy"
               alt=""
-              src="/app-store--filled.svg"
+              src="/app-store--filled3.svg"
             />
           </div>
           <div className="self-stretch flex flex-row items-start justify-start">
-            <div className="flex-1 flex flex-row items-end justify-start pt-[4.6px] pb-1.5 pr-[9.2px] pl-[10.1px] relative gap-[14.6px]">
+            <div className="flex-1 flex flex-row items-end justify-start pt-[4.6px] pb-1.5 pr-[9.2px] pl-2.5 relative gap-[19.8px]">
               <img
                 className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full"
                 alt=""
-                src="/vector.svg"
+                src="/vector1.svg"
               />
               <img
                 className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full z-[1]"
                 alt=""
-                src="/vector-1.svg"
+                src="/vector-11.svg"
               />
-              <div className="flex flex-col items-start justify-end pt-0 px-0 pb-[1.2px]">
+              <div className="flex flex-col items-start justify-end pt-0 px-0 pb-[3.2px]">
                 <img
-                  className="w-[16.2px] h-[13.4px] relative z-[2]"
+                  className="w-[11.1px] h-[21.5px] relative z-[4]"
                   alt=""
-                  src="/vector-2.svg"
+                  src="/vector-52.svg"
                 />
               </div>
+              <img
+                className="h-[13.4px] w-[16.2px] absolute !m-[0] bottom-[7.2px] left-[10.1px] z-[2]"
+                alt=""
+                src="/vector-21.svg"
+              />
+              <img
+                className="h-[11px] w-[12.5px] absolute !m-[0] top-[calc(50%_-_5.5px)] left-[20.5px] z-[3]"
+                alt=""
+                src="/vector-41.svg"
+              />
               <div className="flex-1 flex flex-col items-start justify-start gap-[1.4px]">
                 <div className="relative inline-block [-webkit-text-stroke:0.2px_#fff] min-w-[40px] z-[2]">
                   GET IT ON
@@ -107,23 +117,13 @@ const Footer = () => {
                 <img
                   className="self-stretch h-[17px] relative max-w-full overflow-hidden shrink-0 z-[2]"
                   alt=""
-                  src="/vector-3.svg"
+                  src="/vector-31.svg"
                 />
               </div>
               <img
-                className="h-[11px] w-[12.5px] absolute !m-[0] top-[calc(50%_-_5.5px)] left-[20.5px] z-[3]"
-                alt=""
-                src="/vector-4.svg"
-              />
-              <img
-                className="h-[21.5px] w-[11.1px] absolute !m-[0] bottom-[9.2px] left-[10px] z-[4]"
-                alt=""
-                src="/vector-5.svg"
-              />
-              <img
                 className="h-[12.9px] w-[16.3px] absolute !m-[0] top-[7.1px] left-[10px] z-[5]"
                 alt=""
-                src="/vector-6.svg"
+                src="/vector-62.svg"
               />
             </div>
           </div>
@@ -133,7 +133,7 @@ const Footer = () => {
         className="w-[1240px] relative max-h-full max-w-full"
         loading="lazy"
         alt=""
-        src="/line-copy.svg"
+        src="/line-copy2.svg"
       />
       <div className="w-[1240px] overflow-hidden flex flex-row flex-wrap items-start justify-start max-w-full [row-gap:20px] text-mini">
         <div className="flex-1 relative tracking-[-0.1px] leading-[26px] inline-block min-w-[203px] max-w-full">
@@ -145,13 +145,13 @@ const Footer = () => {
               className="h-6 w-6 relative min-h-[24px]"
               loading="lazy"
               alt=""
-              src="/logotwitter.svg"
+              src="/logotwitter1.svg"
             />
             <img
               className="h-6 w-6 relative min-h-[24px]"
               loading="lazy"
               alt=""
-              src="/logofacebook.svg"
+              src="/logofacebook1.svg"
             />
             <img
               className="h-6 w-6 relative object-cover min-h-[24px]"
@@ -172,4 +172,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer1;

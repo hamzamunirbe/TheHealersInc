@@ -32,7 +32,7 @@ const FrameComponent4 = ({
   }, [propWidth1, propMinWidth2]);
 
   return (
-    <div className="self-stretch flex flex-col items-start justify-start gap-[16px] max-w-full text-left text-base text-gray-400 font-web-primary-h2-primary-dm-sans">
+    <div className="self-stretch flex flex-col items-start justify-start gap-[16px] max-w-full text-left text-base text-gray-400 font-web-primary-h3-primary-dm-sans">
       <div className="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
         <div
           className="relative leading-[24px] font-semibold inline-block min-w-[55px]"
@@ -64,7 +64,7 @@ const FrameComponent4 = ({
           </div>
         </div>
       </div>
-      <div className="self-stretch rounded-sm bg-neutral-1 shadow-[0px_0px_0px_2px_rgba(24,_144,_255,_0.2)] box-border overflow-hidden flex flex-row flex-wrap items-start justify-start max-w-full [row-gap:20px] text-character-disabled-placeholder-25 font-components-helper-text border-[1px] border-solid border-primary-6 mq750:overflow-x-auto">
+      <div className="self-stretch rounded-sm bg-neutral-1 shadow-[0px_0px_0px_2px_rgba(24,_144,_255,_0.2)] box-border overflow-hidden flex flex-row flex-wrap items-start justify-start max-w-full [row-gap:20px] text-character-disabled-placeholder-25 font-h5-medium border-[1px] border-solid border-primary-6 mq750:overflow-x-auto">
         <div className="flex-1 flex flex-row items-start justify-start py-2 px-3 box-border min-w-[520px] max-w-full">
           <div className="flex-1 overflow-hidden flex flex-row items-start justify-start max-w-full">
             <div className="flex flex-col items-start justify-start pt-[3px] px-0 pb-0">

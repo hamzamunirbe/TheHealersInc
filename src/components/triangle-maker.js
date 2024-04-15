@@ -3,7 +3,7 @@ import FrameComponent7 from "./frame-component7";
 
 const TriangleMaker = () => {
   return (
-    <footer className="self-stretch flex flex-col items-start justify-start gap-[32px] max-w-full text-left text-mid text-gray-300 font-gilroy-regular mq750:gap-[16px]">
+    <footer className="self-stretch flex flex-col items-start justify-start gap-[32px] max-w-full text-left text-mid text-gray-300 font-web-primary-h3-primary-dm-sans mq750:gap-[16px]">
       <div className="flex flex-row items-start justify-start gap-[54.9px] max-w-full lg:flex-wrap mq750:gap-[27px]">
         <ParallelProcessor />
         <div className="w-[186.8px] flex flex-col items-start justify-start gap-[16px]">
@@ -95,12 +95,12 @@ const TriangleMaker = () => {
                 className="h-6 w-6 relative object-cover min-h-[24px]"
                 loading="lazy"
                 alt=""
-                src="/logoinstagram@2x.png"
+                src="/logoinstagram2@2x.png"
               />
               <img
                 className="h-6 w-6 relative object-cover min-h-[24px]"
                 alt=""
-                src="/logolinkedin@2x.png"
+                src="/logolinkedin1@2x.png"
               />
             </div>
           </div>

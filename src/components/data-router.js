@@ -9,7 +9,7 @@ const DataRouter = ({ propDebugCommit }) => {
 
   return (
     <div
-      className="self-stretch h-[142px] bg-neutral-1 shadow-[0px_-1px_0px_#f0f0f0_inset] shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-2 box-border gap-[12px] [debug_commit:f6aba90] text-left text-base text-neutral-8 font-web-primary-h2-primary-dm-sans"
+      className="self-stretch h-[142px] bg-neutral-1 shadow-[0px_-1px_0px_#f0f0f0_inset] shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-2 box-border gap-[12px] [debug_commit:f6aba90] text-left text-base text-neutral-8 font-web-primary-h3-primary-dm-sans"
       style={dataRouterStyle}
     >
       <div className="relative leading-[24px] font-semibold inline-block min-w-[64px]">
@@ -23,7 +23,7 @@ const DataRouter = ({ propDebugCommit }) => {
             src="/left-icon.svg"
           />
           <div className="flex flex-row items-start justify-start py-0 px-1">
-            <b className="w-[35px] relative text-xs leading-[20px] uppercase inline-block font-web-primary-h2-primary-dm-sans text-highlight-darkest text-center min-w-[35px]">
+            <b className="w-[35px] relative text-xs leading-[20px] uppercase inline-block font-web-primary-h3-primary-dm-sans text-highlight-darkest text-center min-w-[35px]">
               Yoga
             </b>
           </div>
@@ -42,7 +42,7 @@ const DataRouter = ({ propDebugCommit }) => {
             src="/left-icon.svg"
           />
           <div className="flex flex-row items-start justify-start py-0 px-1">
-            <b className="w-[46px] relative text-xs leading-[20px] uppercase inline-block font-web-primary-h2-primary-dm-sans text-highlight-darkest text-center min-w-[46px]">
+            <b className="w-[46px] relative text-xs leading-[20px] uppercase inline-block font-web-primary-h3-primary-dm-sans text-highlight-darkest text-center min-w-[46px]">
               5 Miles
             </b>
           </div>
@@ -61,7 +61,7 @@ const DataRouter = ({ propDebugCommit }) => {
             src="/left-icon.svg"
           />
           <div className="flex flex-row items-start justify-start py-0 px-1">
-            <b className="w-[123px] relative text-xs leading-[20px] uppercase inline-block font-web-primary-h2-primary-dm-sans text-highlight-darkest text-center min-w-[123px] whitespace-nowrap">
+            <b className="w-[123px] relative text-xs leading-[20px] uppercase inline-block font-web-primary-h3-primary-dm-sans text-highlight-darkest text-center min-w-[123px] whitespace-nowrap">
               08:00 AM - 12:00 PM
             </b>
           </div>

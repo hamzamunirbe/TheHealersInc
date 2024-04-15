@@ -1,8 +1,8 @@
 import ServiceCard2 from "./service-card2";
 
-const FrameComponent11 = () => {
+const FrameComponent111 = () => {
   return (
-    <div className="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[426px] max-w-full text-left text-lg text-m3-black font-web-primary-h2-primary-dm-sans mq750:gap-[20px] mq750:min-w-full">
+    <div className="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[426px] max-w-full text-left text-lg text-m3-black font-web-primary-h3-primary-dm-sans mq750:gap-[20px] mq750:min-w-full">
       <div className="self-stretch flex flex-col items-start justify-start gap-[24px] max-w-full text-5xl">
         <div className="self-stretch flex flex-row items-start justify-start gap-[7px] max-w-full mq750:flex-wrap">
           <div className="flex flex-col items-start justify-start py-0 pr-[17px] pl-0">
@@ -76,7 +76,7 @@ const FrameComponent11 = () => {
         <img
           className="self-stretch h-[284px] relative max-w-full overflow-hidden shrink-0 object-cover"
           alt=""
-          src="/basemap-image@2x.png"
+          src="/basemap-image1@2x.png"
         />
         <img
           className="w-[52px] h-[52px] absolute !m-[0] top-[calc(50%_-_26.1px)] left-[calc(50%_-_26px)] overflow-hidden shrink-0 z-[1]"
@@ -127,4 +127,4 @@ const FrameComponent11 = () => {
   );
 };
 
-export default FrameComponent11;
+export default FrameComponent111;

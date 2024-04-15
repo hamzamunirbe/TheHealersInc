@@ -5,9 +5,10 @@ const Button1 = () => {
         <img
           className="w-3.5 h-3.5 relative overflow-hidden shrink-0 object-cover"
           alt=""
+          src="/wrapper@2x.png"
         />
       </div>
-      <b className="w-[67px] relative text-lg leading-[26px] inline-block font-web-primary-h2-primary-dm-sans text-neutral-1 text-center min-w-[67px] whitespace-nowrap">
+      <b className="w-[67px] relative text-lg leading-[26px] inline-block font-web-primary-h3-primary-dm-sans text-neutral-1 text-center min-w-[67px] whitespace-nowrap">
         Sign Up
       </b>
     </button>

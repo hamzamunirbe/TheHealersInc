@@ -1,6 +1,6 @@
-const WhyChooseUs = () => {
+const WhyChooseUs1 = () => {
   return (
-    <section className="self-stretch flex flex-col items-center justify-center py-14 px-5 box-border gap-[56px] max-w-full text-center text-smi text-consumer-colors-monochromatic font-web-primary-h2-primary-dm-sans mq750:gap-[28px] mq750:pt-9 mq750:pb-9 mq750:box-border">
+    <section className="self-stretch flex flex-col items-center justify-center py-14 px-5 box-border gap-[56px] max-w-full text-center text-smi text-consumer-colors-monochromatic font-web-primary-h3-primary-dm-sans mq750:gap-[28px] mq750:pt-9 mq750:pb-9 mq750:box-border">
       <div className="w-[589px] overflow-hidden flex flex-col items-center justify-start gap-[24px] max-w-full">
         <b className="self-stretch relative tracking-[1.63px] uppercase">
           Why choose us
@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
             className="h-20 w-20 relative"
             loading="lazy"
             alt=""
-            src="/icon.svg"
+            src="/icon2.svg"
           />
           <div className="flex flex-col items-start justify-start">
             <b className="relative tracking-[-0.5px] leading-[32px] mq450:text-mid mq450:leading-[26px]">
@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
           <img
             className="h-[79px] w-[79px] relative"
             alt=""
-            src="/icon-1.svg"
+            src="/icon-11.svg"
           />
           <div className="flex flex-col items-start justify-start max-w-full">
             <b className="relative tracking-[-0.5px] leading-[32px] mq450:text-mid mq450:leading-[26px]">
@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
           <img
             className="h-[79px] w-[79px] relative"
             alt=""
-            src="/icon-1.svg"
+            src="/icon-11.svg"
           />
           <div className="flex flex-col items-start justify-start max-w-full">
             <b className="relative tracking-[-0.5px] leading-[32px] mq450:text-mid mq450:leading-[26px]">
@@ -62,7 +62,7 @@ const WhyChooseUs = () => {
           <img
             className="h-[79px] w-[79px] relative"
             alt=""
-            src="/icon-1.svg"
+            src="/icon-11.svg"
           />
           <div className="flex-1 flex flex-col items-start justify-start min-w-[195px]">
             <b className="relative tracking-[-0.5px] leading-[32px] mq450:text-mid mq450:leading-[26px]">
@@ -79,4 +79,4 @@ const WhyChooseUs = () => {
   );
 };
 
-export default WhyChooseUs;
+export default WhyChooseUs1;

@@ -1,5 +1,5 @@
 import NavBar3 from "../components/nav-bar3";
-import FrameComponent11 from "../components/frame-component11";
+import FrameComponent111 from "../components/frame-component11";
 import FrameComponent10 from "../components/frame-component10";
 
 const ServiceDetails = () => {
@@ -7,8 +7,8 @@ const ServiceDetails = () => {
     <div className="w-full relative bg-neutral-1 overflow-y-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[80px] leading-[normal] tracking-[normal] mq750:gap-[40px] mq450:gap-[20px]">
       <NavBar3 />
       <main className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-10 box-border max-w-full">
-        <section className="w-[1200px] flex flex-row items-start justify-center gap-[56px] max-w-full text-left text-base text-gray-200 font-web-primary-h2-primary-dm-sans mq750:gap-[28px] mq1050:flex-wrap">
-          <FrameComponent11 />
+        <section className="w-[1200px] flex flex-row items-start justify-center gap-[56px] max-w-full text-left text-base text-gray-200 font-web-primary-h3-primary-dm-sans mq750:gap-[28px] mq1050:flex-wrap">
+          <FrameComponent111 />
           <div className="w-[488px] flex flex-col items-start justify-start pt-[4.5px] px-0 pb-0 box-border min-w-[488px] max-w-full mq750:min-w-full mq1050:flex-1">
             <div className="self-stretch flex flex-col items-start justify-start gap-[24px] max-w-full">
               <div className="self-stretch flex flex-col items-start justify-start gap-[16px] text-primary-6">
@@ -123,13 +123,13 @@ const ServiceDetails = () => {
                             <div className="h-2 w-2 relative rounded-81xl" />
                           </div>
                         </div>
-                        <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-neutral-1 text-center inline-block z-[1]">
+                        <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-neutral-1 text-center inline-block z-[1]">
                           OP
                         </div>
                         <div className="w-6 h-6 relative [transform:_rotate(-90deg)] z-[2]" />
                       </div>
                       <div className="flex flex-col items-start justify-start py-[3px] px-1.5">
-                        <b className="relative text-xs leading-[18px] uppercase font-web-primary-h2-primary-dm-sans text-consumer-colors-primary text-left whitespace-nowrap">
+                        <b className="relative text-xs leading-[18px] uppercase font-web-primary-h3-primary-dm-sans text-consumer-colors-primary text-left whitespace-nowrap">
                           09:00 AM to 05:00 PM
                         </b>
                       </div>
@@ -152,7 +152,7 @@ const ServiceDetails = () => {
                       <div className="relative leading-[18px] inline-block min-w-[58px]">
                         Start Time
                       </div>
-                      <div className="self-stretch flex flex-row items-start justify-start text-base text-text-primary font-components-helper-text">
+                      <div className="self-stretch flex flex-row items-start justify-start text-base text-text-primary font-h5-medium">
                         <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                           <div className="hidden flex-row items-start justify-start">
                             <img
@@ -164,7 +164,7 @@ const ServiceDetails = () => {
                         </div>
                         <div className="h-6 w-0 relative hidden" />
                         <div className="self-stretch w-[220px] relative tracking-[0.15px] leading-[24px] hidden" />
-                        <div className="flex-1 relative leading-[24px] font-web-primary-h2-primary-dm-sans text-m3-ref-neutral-neutral20 whitespace-nowrap">
+                        <div className="flex-1 relative leading-[24px] font-web-primary-h3-primary-dm-sans text-m3-ref-neutral-neutral20 whitespace-nowrap">
                           09:00 AM
                         </div>
                         <div className="flex flex-col items-start justify-start pt-[11.5px] px-0 pb-0">
@@ -180,7 +180,7 @@ const ServiceDetails = () => {
                       </div>
                       <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
                     </div>
-                    <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+                    <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
                       <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                         Helper text
                       </div>
@@ -191,7 +191,7 @@ const ServiceDetails = () => {
                       <div className="relative leading-[18px] inline-block min-w-[52px]">
                         End Time
                       </div>
-                      <div className="self-stretch flex flex-row items-start justify-start text-base text-text-primary font-components-helper-text">
+                      <div className="self-stretch flex flex-row items-start justify-start text-base text-text-primary font-h5-medium">
                         <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                           <div className="hidden flex-row items-start justify-start">
                             <img
@@ -203,7 +203,7 @@ const ServiceDetails = () => {
                         </div>
                         <div className="h-6 w-0 relative hidden" />
                         <div className="self-stretch w-[220px] relative tracking-[0.15px] leading-[24px] hidden" />
-                        <div className="flex-1 relative leading-[24px] font-web-primary-h2-primary-dm-sans text-m3-ref-neutral-neutral20 whitespace-nowrap">
+                        <div className="flex-1 relative leading-[24px] font-web-primary-h3-primary-dm-sans text-m3-ref-neutral-neutral20 whitespace-nowrap">
                           10:00 AM
                         </div>
                         <div className="flex flex-col items-start justify-start pt-[11.5px] px-0 pb-0">
@@ -219,7 +219,7 @@ const ServiceDetails = () => {
                       </div>
                       <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
                     </div>
-                    <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+                    <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
                       <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                         Helper text
                       </div>
@@ -232,7 +232,7 @@ const ServiceDetails = () => {
                   <img
                     className="w-6 h-6 relative overflow-hidden shrink-0 object-cover"
                     alt=""
-                    src="/wrapper@2x.png"
+                    src="/wrapper4@2x.png"
                   />
                 </div>
                 <div className="w-[188px] relative text-lg leading-[26px] font-gilroy-bold text-neutral-1 text-center inline-block">

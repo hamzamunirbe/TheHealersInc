@@ -2,8 +2,8 @@ import FrameComponent5 from "../components/frame-component5";
 
 const ConsumerPreferences1 = () => {
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[75px] box-border gap-[80px] leading-[normal] tracking-[normal] text-left text-13xl text-gray-400 font-web-primary-h2-primary-dm-sans mq750:gap-[40px] mq450:gap-[20px]">
-      <header className="self-stretch bg-neutral-1 shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] flex flex-row items-start justify-center py-6 px-5 gap-[704px] top-[0] z-[99] sticky text-left text-base text-m3-black font-web-primary-h2-primary-dm-sans border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq750:gap-[176px] mq450:gap-[88px]">
+    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[75px] box-border gap-[80px] leading-[normal] tracking-[normal] text-left text-13xl text-gray-400 font-web-primary-h3-primary-dm-sans mq750:gap-[40px] mq450:gap-[20px]">
+      <header className="self-stretch bg-neutral-1 shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] flex flex-row items-start justify-center py-6 px-5 gap-[704px] top-[0] z-[99] sticky text-left text-base text-m3-black font-web-primary-h3-primary-dm-sans border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq750:gap-[176px] mq450:gap-[88px]">
         <div className="w-[236px] flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border">
           <div className="self-stretch flex flex-row items-end justify-start gap-[12.4px]">
             <img
@@ -64,7 +64,7 @@ const ConsumerPreferences1 = () => {
                 To provide you the best experience we need to know your gender.
               </div>
             </div>
-            <div className="overflow-hidden flex flex-row items-start justify-center gap-[44px] text-base font-sf-pro-display mq450:gap-[22px]">
+            <div className="overflow-hidden flex flex-row items-start justify-center gap-[44px] text-base mq450:gap-[22px]">
               <div className="rounded-lg bg-ghostwhite-200 overflow-hidden flex flex-col items-center justify-start py-4 px-8 gap-[8px]">
                 <img
                   className="w-16 h-16 relative object-cover"

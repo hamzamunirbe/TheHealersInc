@@ -23,7 +23,7 @@ const ConsumerPreferences3 = () => {
   return (
     <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[75px] box-border gap-[80px] leading-[normal] tracking-[normal] mq750:gap-[40px] mq450:gap-[20px]">
       <NavBar />
-      <section className="w-[1029px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-13xl text-gray-400 font-web-primary-h2-primary-dm-sans">
+      <section className="w-[1029px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-13xl text-gray-400 font-web-primary-h3-primary-dm-sans">
         <div className="w-[789px] flex flex-row items-start justify-start gap-[56px] max-w-full mq450:gap-[28px]">
           <div className="w-[180px] flex flex-col items-start justify-start gap-[24px] mq750:hidden">
             <PreferencesTile1

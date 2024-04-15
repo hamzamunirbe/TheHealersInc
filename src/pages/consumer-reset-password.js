@@ -3,14 +3,14 @@ import FrameComponent8 from "../components/frame-component8";
 
 const ConsumerResetPassword = () => {
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] leading-[normal] tracking-[normal] text-center text-lg text-character-disabled-placeholder-25 font-web-primary-h2-primary-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] leading-[normal] tracking-[normal] text-center text-lg text-character-disabled-placeholder-25 font-web-primary-h3-primary-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
       <div className="h-2 w-2 relative overflow-hidden shrink-0 hidden z-[0]" />
       <div className="h-[60px] w-[400px] rounded bg-neutral-3 shadow-[0px_2px_0px_rgba(0,_0,_0,_0.02)] box-border hidden flex-row items-center justify-center py-3 px-[30px] gap-[10px] max-w-full z-[1] border-[1px] border-solid border-neutral-5">
         <div className="bg-hitbox overflow-hidden hidden flex-col items-center justify-center">
           <img
             className="w-3.5 h-3.5 relative overflow-hidden shrink-0 object-cover"
             alt=""
-            src="/wrapper@2x.png"
+            src="/wrapper21@2x.png"
           />
         </div>
         <b className="relative leading-[26px]">Update Password</b>

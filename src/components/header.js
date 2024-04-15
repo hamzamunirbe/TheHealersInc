@@ -7,14 +7,14 @@ const Header = () => {
             className="h-[50px] w-[50.6px] relative overflow-hidden shrink-0"
             loading="lazy"
             alt=""
-            src="/the-healers-logo1.svg"
+            src="/the-healers-logo2.svg"
           />
           <div className="flex-1 flex flex-col items-start justify-end pt-0 px-0 pb-[13px]">
             <img
               className="self-stretch h-[23.9px] relative max-w-full overflow-hidden shrink-0"
               loading="lazy"
               alt=""
-              src="/the-healers1.svg"
+              src="/the-healers2.svg"
             />
           </div>
         </div>
@@ -26,9 +26,10 @@ const Header = () => {
               <img
                 className="w-3.5 h-3.5 relative overflow-hidden shrink-0 object-cover"
                 alt=""
+                src="/wrapper1@2x.png"
               />
             </div>
-            <b className="w-[47px] relative text-lg leading-[26px] inline-block font-web-primary-h2-primary-dm-sans text-vendor-colors-monochromatic text-center min-w-[47px]">
+            <b className="w-[47px] relative text-lg leading-[26px] inline-block font-web-primary-h3-primary-dm-sans text-vendor-colors-monochromatic text-center min-w-[47px]">
               Login
             </b>
           </button>
@@ -38,9 +39,10 @@ const Header = () => {
             <img
               className="w-3.5 h-3.5 relative overflow-hidden shrink-0 object-cover"
               alt=""
+              src="/wrapper1@2x.png"
             />
           </div>
-          <b className="w-[109px] relative text-lg leading-[26px] inline-block font-web-primary-h2-primary-dm-sans text-vendor-colors-monochromatic text-center min-w-[109px] whitespace-nowrap">
+          <b className="w-[109px] relative text-lg leading-[26px] inline-block font-web-primary-h3-primary-dm-sans text-vendor-colors-monochromatic text-center min-w-[109px] whitespace-nowrap">
             Sign Up Now
           </b>
         </button>

@@ -8,7 +8,7 @@ const ServiceCard1 = ({ featuredImage, yoga, prop, propMinWidth }) => {
   }, [propMinWidth]);
 
   return (
-    <div className="self-stretch shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] flex flex-col items-start justify-start max-w-full text-left text-lg text-neutral-11 font-web-primary-h2-primary-dm-sans">
+    <div className="self-stretch shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] flex flex-col items-start justify-start max-w-full text-left text-lg text-neutral-11 font-web-primary-h3-primary-dm-sans">
       <img
         className="self-stretch h-[154px] relative rounded-t-xl rounded-b-none max-w-full overflow-hidden shrink-0 object-cover"
         loading="lazy"
@@ -40,7 +40,7 @@ const ServiceCard1 = ({ featuredImage, yoga, prop, propMinWidth }) => {
               className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
               loading="lazy"
               alt=""
-              src="/icons.svg"
+              src="/icons1.svg"
             />
             <div className="w-11 relative leading-[22px] font-semibold inline-block min-w-[44px]">
               Online
@@ -51,7 +51,7 @@ const ServiceCard1 = ({ featuredImage, yoga, prop, propMinWidth }) => {
               className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
               loading="lazy"
               alt=""
-              src="/timezone-1.svg"
+              src="/timezone-11.svg"
             />
             <div className="relative leading-[22px] font-semibold inline-block min-w-[84px] whitespace-nowrap">
               GMT -05:00

@@ -9,12 +9,12 @@ const SearchModule = ({ icon }) => {
               alt=""
               src="/search-icon@2x.png"
             />
-            <div className="flex-1 relative text-base leading-[24px] font-web-primary-h2-primary-dm-sans text-m3-black text-left inline-block max-w-[calc(100%_-_34px)]">
+            <div className="flex-1 relative text-base leading-[24px] font-web-primary-h3-primary-dm-sans text-m3-black text-left inline-block max-w-[calc(100%_-_34px)]">
               Article name or keywords...
             </div>
           </div>
           <div className="flex-1 rounded-xl box-border overflow-hidden flex flex-row items-center justify-between p-6 min-w-[246px] max-w-full gap-[20px] border-[2px] border-solid border-whitesmoke-200">
-            <div className="w-[228px] relative text-base leading-[24px] font-web-primary-h2-primary-dm-sans text-m3-black text-left inline-block shrink-0">
+            <div className="w-[228px] relative text-base leading-[24px] font-web-primary-h3-primary-dm-sans text-m3-black text-left inline-block shrink-0">
               Vancouver, Canada
             </div>
             <img className="h-1.5 w-[18px] relative" alt="" src="/caret.svg" />
@@ -25,7 +25,7 @@ const SearchModule = ({ icon }) => {
             <img
               className="w-3.5 h-3.5 relative overflow-hidden shrink-0 object-cover"
               alt=""
-              src="/wrapper@2x.png"
+              src="/wrapper2@2x.png"
             />
           </div>
           <div className="w-[59px] relative text-lg leading-[26px] font-gilroy-bold text-neutral-1 text-center inline-block min-w-[59px]">

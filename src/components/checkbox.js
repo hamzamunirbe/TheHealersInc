@@ -8,7 +8,7 @@ const Checkbox = ({ title, propLineHeight }) => {
   }, [propLineHeight]);
 
   return (
-    <div className="self-stretch flex flex-row items-start justify-end py-3 px-4 text-left text-sm text-m3-black font-web-primary-h2-primary-dm-sans border-b-[2px] border-solid border-whitesmoke-200">
+    <div className="self-stretch flex flex-row items-start justify-end py-3 px-4 text-left text-sm text-m3-black font-web-primary-h3-primary-dm-sans border-b-[2px] border-solid border-whitesmoke-200">
       <div className="w-[152px] overflow-hidden shrink-0 flex flex-row items-start justify-start gap-[16px]">
         <div className="flex flex-col items-start justify-start pt-2.5 px-0 pb-0">
           <input

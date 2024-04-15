@@ -7,12 +7,12 @@ const ConsumerSignUp = () => {
         <img
           className="absolute h-full w-[20.08%] top-[0%] right-[79.92%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="/the-healers-logo3.svg"
+          src="/the-healers-logo4.svg"
         />
         <img
           className="absolute h-[47.87%] w-[74.66%] top-[26.17%] right-[0%] bottom-[25.96%] left-[25.34%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="/the-healers3.svg"
+          src="/the-healers4.svg"
         />
       </div>
       <div className="h-[57.5px] w-[404px] hidden flex-col items-start justify-start max-w-full z-[1]">
@@ -26,12 +26,12 @@ const ConsumerSignUp = () => {
       <div className="w-[432px] flex flex-col items-start justify-start pt-[62.6px] px-0 pb-0 box-border min-w-[432px] max-w-full mq1050:pt-[41px] mq1050:box-border mq1125:flex-1 mq450:pt-[27px] mq450:box-border mq750:min-w-full">
         <FrameComponent3 />
       </div>
-      <div className="h-[864px] flex-1 relative min-w-[390px] max-w-full text-29xl font-web-primary-h2-primary-dm-sans mq750:min-w-full">
+      <div className="h-[864px] flex-1 relative min-w-[390px] max-w-full text-29xl font-web-primary-h3-primary-dm-sans mq750:min-w-full">
         <img
           className="absolute top-[0px] left-[0px] rounded-2xl w-full h-full z-[1]"
           loading="lazy"
           alt=""
-          src="/subtract.svg"
+          src="/subtract1.svg"
         />
         <h1 className="m-0 absolute top-[123px] left-[40px] text-inherit leading-[64px] font-bold font-inherit inline-block w-[520px] z-[2] mq1050:text-19xl mq1050:leading-[51px] mq450:text-10xl mq450:leading-[38px]">
           Explore Local offerings in fitness, and wellness services.

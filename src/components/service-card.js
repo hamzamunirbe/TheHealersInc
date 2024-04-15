@@ -21,7 +21,7 @@ const ServiceCard = ({
   }, [propMinWidth1]);
 
   return (
-    <div className="self-stretch shadow-[-1px_0px_0px_#d9d9d9_inset,_0px_1px_0px_#d9d9d9_inset,_0px_-1px_0px_#d9d9d9_inset] flex flex-row items-start justify-start max-w-full [row-gap:20px] text-left text-5xl text-neutral-11 font-web-primary-h2-primary-dm-sans mq1050:flex-wrap">
+    <div className="self-stretch shadow-[-1px_0px_0px_#d9d9d9_inset,_0px_1px_0px_#d9d9d9_inset,_0px_-1px_0px_#d9d9d9_inset] flex flex-row items-start justify-start max-w-full [row-gap:20px] text-left text-5xl text-neutral-11 font-web-primary-h3-primary-dm-sans mq1050:flex-wrap">
       <img
         className="h-[250px] w-[312px] relative rounded-tl-xl rounded-tr-none rounded-br-none rounded-bl-xl object-cover min-h-[250px] mq1050:flex-1"
         loading="lazy"

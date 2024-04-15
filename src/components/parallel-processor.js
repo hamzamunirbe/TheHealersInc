@@ -1,6 +1,6 @@
 const ParallelProcessor = () => {
   return (
-    <div className="w-[248px] flex flex-col items-start justify-start gap-[32px] text-left text-mini text-gray-900 font-gilroy-regular">
+    <div className="w-[248px] flex flex-col items-start justify-start gap-[32px] text-left text-mini text-gray-900 font-web-primary-h3-primary-dm-sans">
       <div className="w-[236px] flex flex-row items-end justify-start gap-[12.4px]">
         <img
           className="h-[47px] w-[47.4px] relative overflow-hidden shrink-0"

@@ -1,6 +1,6 @@
 const SplitConnectors = () => {
   return (
-    <footer className="self-stretch flex flex-col items-start justify-start gap-[32px] text-left text-mid text-gray-300 font-gilroy-regular mq750:gap-[16px]">
+    <footer className="self-stretch flex flex-col items-start justify-start gap-[32px] text-left text-mid text-gray-300 font-web-primary-h3-primary-dm-sans mq750:gap-[16px]">
       <div className="flex flex-row items-start justify-start gap-[54.9px] lg:flex-wrap mq750:gap-[27px]">
         <div className="w-[248px] flex flex-col items-start justify-start gap-[32px] text-mini text-gray-900">
           <div className="w-[200px] flex flex-row items-end justify-start gap-[10.5px]">
@@ -161,12 +161,12 @@ const SplitConnectors = () => {
               <img
                 className="h-6 w-6 relative object-cover min-h-[24px]"
                 alt=""
-                src="/logoinstagram@2x.png"
+                src="/logoinstagram3@2x.png"
               />
               <img
                 className="h-6 w-6 relative object-cover min-h-[24px]"
                 alt=""
-                src="/logolinkedin@2x.png"
+                src="/logolinkedin2@2x.png"
               />
             </div>
           </div>

@@ -1,6 +1,6 @@
 const FrameComponent9 = () => {
   return (
-    <div className="self-stretch flex flex-col items-end justify-start gap-[24.3px] max-w-full text-left text-xs text-text-secondary font-web-primary-h2-primary-dm-sans">
+    <div className="self-stretch flex flex-col items-end justify-start gap-[24.3px] max-w-full text-left text-xs text-text-secondary font-web-primary-h3-primary-dm-sans">
       <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-xl text-neutral-10">
         <h2 className="m-0 w-[172px] relative text-inherit leading-[30px] font-bold font-inherit inline-block mq450:text-base mq450:leading-[24px]">
           Forgot Password?
@@ -41,7 +41,7 @@ const FrameComponent9 = () => {
             </div>
             <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
           </div>
-          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
             <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
               Helper text
             </div>
@@ -76,7 +76,7 @@ const FrameComponent9 = () => {
             </div>
             <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
           </div>
-          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
             <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
               Helper text
             </div>
@@ -111,7 +111,7 @@ const FrameComponent9 = () => {
             </div>
             <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
           </div>
-          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
             <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
               Helper text
             </div>
@@ -146,7 +146,7 @@ const FrameComponent9 = () => {
             </div>
             <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
           </div>
-          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
             <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
               Helper text
             </div>
@@ -181,7 +181,7 @@ const FrameComponent9 = () => {
             </div>
             <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
           </div>
-          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
             <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
               Helper text
             </div>
@@ -216,7 +216,7 @@ const FrameComponent9 = () => {
             </div>
             <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
           </div>
-          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+          <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
             <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
               Helper text
             </div>
@@ -239,7 +239,7 @@ const FrameComponent9 = () => {
           <div className="relative leading-[18px] inline-block min-w-[81px]">
             New Password
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start max-w-full [row-gap:20px] text-base text-text-primary font-components-helper-text mq450:flex-wrap">
+          <div className="self-stretch flex flex-row items-start justify-start max-w-full [row-gap:20px] text-base text-text-primary font-h5-medium mq450:flex-wrap">
             <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
               <div className="hidden flex-row items-start justify-start">
                 <img
@@ -252,7 +252,7 @@ const FrameComponent9 = () => {
             <div className="h-6 w-0 relative hidden" />
             <div className="self-stretch w-[220px] relative tracking-[0.15px] leading-[24px] hidden" />
             <input
-              className="w-[calc(100%_-_24px)] [border:none] [outline:none] font-web-primary-h2-primary-dm-sans text-base bg-[transparent] h-6 flex-1 relative leading-[24px] text-m3-ref-neutral-neutral20 text-left inline-block min-w-[244px] max-w-full p-0"
+              className="w-[calc(100%_-_24px)] [border:none] [outline:none] font-web-primary-h3-primary-dm-sans text-base bg-[transparent] h-6 flex-1 relative leading-[24px] text-m3-ref-neutral-neutral20 text-left inline-block min-w-[244px] max-w-full p-0"
               placeholder="************"
               type="text"
             />
@@ -269,7 +269,7 @@ const FrameComponent9 = () => {
           </div>
           <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
         </div>
-        <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+        <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
           <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
             Helper text
           </div>
@@ -280,7 +280,7 @@ const FrameComponent9 = () => {
           <div className="relative leading-[18px] inline-block min-w-[101px]">
             Confirm Password
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start max-w-full [row-gap:20px] text-base text-text-primary font-components-helper-text mq450:flex-wrap">
+          <div className="self-stretch flex flex-row items-start justify-start max-w-full [row-gap:20px] text-base text-text-primary font-h5-medium mq450:flex-wrap">
             <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
               <div className="hidden flex-row items-start justify-start">
                 <img
@@ -293,7 +293,7 @@ const FrameComponent9 = () => {
             <div className="h-6 w-0 relative hidden" />
             <div className="self-stretch w-[220px] relative tracking-[0.15px] leading-[24px] hidden" />
             <input
-              className="w-[calc(100%_-_24px)] [border:none] [outline:none] font-web-primary-h2-primary-dm-sans text-base bg-[transparent] h-6 flex-1 relative leading-[24px] text-m3-ref-neutral-neutral20 text-left inline-block min-w-[244px] max-w-full p-0"
+              className="w-[calc(100%_-_24px)] [border:none] [outline:none] font-web-primary-h3-primary-dm-sans text-base bg-[transparent] h-6 flex-1 relative leading-[24px] text-m3-ref-neutral-neutral20 text-left inline-block min-w-[244px] max-w-full p-0"
               placeholder="************"
               type="text"
             />
@@ -310,7 +310,7 @@ const FrameComponent9 = () => {
           </div>
           <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
         </div>
-        <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
+        <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
           <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
             Helper text
           </div>
@@ -404,7 +404,7 @@ const FrameComponent9 = () => {
             src="/wrapper-13@2x.png"
           />
         </div>
-        <b className="w-[154px] relative text-lg leading-[26px] inline-block font-web-primary-h2-primary-dm-sans text-neutral-1 text-center">
+        <b className="w-[154px] relative text-lg leading-[26px] inline-block font-web-primary-h3-primary-dm-sans text-neutral-1 text-center">
           Update Password
         </b>
       </button>
@@ -415,7 +415,7 @@ const FrameComponent9 = () => {
               <img
                 className="w-4 h-4 relative overflow-hidden shrink-0 object-cover"
                 alt=""
-                src="/wrapper-2@2x.png"
+                src="/wrapper-21@2x.png"
               />
             </div>
           </div>

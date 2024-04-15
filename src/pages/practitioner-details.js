@@ -25,7 +25,7 @@ const PractitionerDetails = () => {
     <div className="w-full relative bg-neutral-1 overflow-y-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[80px] leading-[normal] tracking-[normal] mq450:gap-[20px] mq750:gap-[40px]">
       <NavBar3 />
       <main className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-        <section className="w-[1200px] flex flex-col items-start justify-start gap-[120px] max-w-full text-left text-base text-m3-black font-web-primary-h2-primary-dm-sans lg:gap-[60px] mq750:gap-[30px]">
+        <section className="w-[1200px] flex flex-col items-start justify-start gap-[120px] max-w-full text-left text-base text-m3-black font-web-primary-h3-primary-dm-sans lg:gap-[60px] mq750:gap-[30px]">
           <div className="self-stretch flex flex-col items-start justify-start gap-[56px] max-w-full mq750:gap-[28px]">
             <div className="self-stretch flex flex-row items-start justify-start gap-[80px] max-w-full lg:gap-[40px] mq1050:flex-wrap mq750:gap-[20px]">
               <div className="flex-1 rounded-3xl overflow-hidden flex flex-row items-start justify-start min-w-[469px] max-w-full mq750:min-w-full">
@@ -93,7 +93,7 @@ const PractitionerDetails = () => {
                     <img
                       className="w-6 h-6 relative overflow-hidden shrink-0 object-cover"
                       alt=""
-                      src="/wrapper@2x.png"
+                      src="/wrapper3@2x.png"
                     />
                   </div>
                   <div className="w-[83px] relative text-lg leading-[26px] font-gilroy-bold text-neutral-1 text-center inline-block min-w-[83px]">
@@ -102,7 +102,7 @@ const PractitionerDetails = () => {
                 </button>
               </div>
             </div>
-            <div className="flex flex-row items-start justify-start text-sm text-consumer-colors-complemantary font-components-helper-text">
+            <div className="flex flex-row items-start justify-start text-sm text-consumer-colors-complemantary font-h5-medium">
               <div
                 className="h-[42px] w-[97px] flex flex-col items-center justify-center relative cursor-pointer"
                 onClick={onTabContainerClick}
@@ -193,13 +193,13 @@ const PractitionerDetails = () => {
                           <div className="h-2 w-2 relative rounded-81xl" />
                         </div>
                       </div>
-                      <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-neutral-1 text-center inline-block z-[1]">
+                      <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-neutral-1 text-center inline-block z-[1]">
                         OP
                       </div>
                       <div className="w-6 h-6 relative [transform:_rotate(-90deg)] z-[2]" />
                     </div>
                     <div className="flex flex-col items-start justify-start py-[3px] px-1.5">
-                      <b className="relative text-xs leading-[18px] uppercase font-web-primary-h2-primary-dm-sans text-neutral-10 text-left whitespace-nowrap">
+                      <b className="relative text-xs leading-[18px] uppercase font-web-primary-h3-primary-dm-sans text-neutral-10 text-left whitespace-nowrap">
                         09:00 AM to 05:00 PM
                       </b>
                     </div>
@@ -216,13 +216,13 @@ const PractitionerDetails = () => {
                           <div className="h-2 w-2 relative rounded-81xl" />
                         </div>
                       </div>
-                      <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-neutral-1 text-center inline-block z-[1]">
+                      <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-neutral-1 text-center inline-block z-[1]">
                         OP
                       </div>
                       <div className="w-6 h-6 relative [transform:_rotate(-90deg)] z-[2]" />
                     </div>
                     <div className="flex flex-col items-start justify-start py-[3px] px-1.5">
-                      <b className="relative text-xs leading-[18px] uppercase font-web-primary-h2-primary-dm-sans text-neutral-10 text-left whitespace-nowrap">
+                      <b className="relative text-xs leading-[18px] uppercase font-web-primary-h3-primary-dm-sans text-neutral-10 text-left whitespace-nowrap">
                         09:00 AM to 05:00 PM
                       </b>
                     </div>

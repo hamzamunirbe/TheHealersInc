@@ -1,12 +1,12 @@
 import Header from "../components/header";
 import FrameComponent from "../components/frame-component";
-import WhyChooseUs from "../components/why-choose-us";
+import WhyChooseUs1 from "../components/why-choose-us";
 import SectionText from "../components/section-text";
-import Footer from "../components/footer";
+import Footer1 from "../components/footer";
 
 const PractitionerLandingPage = () => {
   return (
-    <div className="w-full relative bg-gray-100 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] text-left text-smi text-vendor-colors-triadic font-web-primary-h2-primary-dm-sans">
+    <div className="w-full relative bg-gray-100 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] text-left text-smi text-vendor-colors-triadic font-web-primary-h3-primary-dm-sans">
       <Header />
       <FrameComponent />
       <div className="w-[845px] flex flex-row items-start justify-center pt-0 px-5 pb-[21px] box-border max-w-full">
@@ -20,7 +20,7 @@ const PractitionerLandingPage = () => {
           </h1>
         </div>
       </div>
-      <section className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-14 box-border max-w-full text-left text-lg text-gray-900 font-web-primary-h2-primary-dm-sans mq750:pb-9 mq750:box-border">
+      <section className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-14 box-border max-w-full text-left text-lg text-gray-900 font-web-primary-h3-primary-dm-sans mq750:pb-9 mq750:box-border">
         <div className="w-[1110px] flex flex-row items-end justify-center gap-[95px] max-w-full mq1050:flex-wrap mq750:gap-[24px] mq1225:gap-[47px]">
           <img
             className="w-[445px] relative rounded-3xs max-h-full object-cover max-w-full mq1050:flex-1"
@@ -48,8 +48,8 @@ const PractitionerLandingPage = () => {
           </div>
         </div>
       </section>
-      <WhyChooseUs />
-      <section className="self-stretch bg-vendor-colors-primary-1 flex flex-row items-center justify-start py-14 px-[100px] box-border gap-[80px] max-w-full text-left text-smi text-consumer-colors-monochromatic font-web-primary-h2-primary-dm-sans mq450:gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border mq750:gap-[40px] mq750:py-9 mq750:px-[50px] mq750:box-border mq1225:flex-wrap">
+      <WhyChooseUs1 />
+      <section className="self-stretch bg-vendor-colors-primary-1 flex flex-row items-center justify-start py-14 px-[100px] box-border gap-[80px] max-w-full text-left text-smi text-consumer-colors-monochromatic font-web-primary-h3-primary-dm-sans mq450:gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border mq750:gap-[40px] mq750:py-9 mq750:px-[50px] mq750:box-border mq1225:flex-wrap">
         <div className="flex-1 flex flex-col items-start justify-center gap-[8px] min-w-[461px] max-w-full mq750:min-w-full">
           <b className="w-[589px] relative tracking-[1.63px] uppercase inline-block max-w-full">
             The Healers app
@@ -64,7 +64,7 @@ const PractitionerLandingPage = () => {
           />
         </div>
       </section>
-      <Footer />
+      <Footer1 />
     </div>
   );
 };

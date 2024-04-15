@@ -1,6 +1,25 @@
-const TheHealersApp = () => {
+import { useMemo } from "react";
+
+const TheHealersApp = ({
+  group2,
+  bookingMadeSimpleContaineLineHeight,
+  bookingMadeSimpleContaineDisplay,
+  bookingMadeSimpleContaineMinHeight,
+}) => {
+  const bookingMadeSimpleContainerStyle = useMemo(() => {
+    return {
+      lineHeight: bookingMadeSimpleContaineLineHeight,
+      display: bookingMadeSimpleContaineDisplay,
+      minHeight: bookingMadeSimpleContaineMinHeight,
+    };
+  }, [
+    bookingMadeSimpleContaineLineHeight,
+    bookingMadeSimpleContaineDisplay,
+    bookingMadeSimpleContaineMinHeight,
+  ]);
+
   return (
-    <section className="self-stretch bg-consumer-colors-primary-1 flex flex-row items-start justify-start py-[140.5px] px-[100px] box-border gap-[56px] max-w-full text-left text-smi text-consumer-colors-monochromatic font-web-primary-h2-primary-dm-sans mq750:gap-[28px] mq750:py-[91px] mq750:px-[25px] mq750:box-border mq1225:flex-wrap mq1225:pl-[50px] mq1225:pr-[50px] mq1225:box-border">
+    <section className="self-stretch bg-consumer-colors-primary-1 flex flex-row items-start justify-start py-[140.5px] px-[100px] box-border gap-[56px] max-w-full text-left text-smi text-consumer-colors-monochromatic font-web-primary-h3-primary-dm-sans mq750:gap-[28px] mq750:py-[91px] mq750:px-[25px] mq750:box-border mq1225:flex-wrap mq1225:pl-[50px] mq1225:pr-[50px] mq1225:box-border">
       <div className="w-[690px] flex flex-col items-start justify-start gap-[32px] min-w-[690px] max-w-full mq1050:min-w-full mq750:gap-[16px] mq1225:flex-1">
         <div className="w-[589px] flex flex-col items-start justify-start gap-[8px] max-w-full">
           <b className="self-stretch relative tracking-[1.63px] uppercase">
@@ -24,7 +43,10 @@ const TheHealersApp = () => {
             <div className="flex flex-row items-start justify-start py-1 px-0">
               <div className="h-4 w-4 relative rounded-[50%] bg-lightcoral" />
             </div>
-            <div className="relative tracking-[-0.2px]">
+            <div
+              className="relative tracking-[-0.2px]"
+              style={bookingMadeSimpleContainerStyle}
+            >
               <p className="m-0">{`Booking Made `}</p>
               <p className="m-0">Simple</p>
             </div>
@@ -53,7 +75,7 @@ const TheHealersApp = () => {
                     className="h-[46px] w-[109px] relative"
                     loading="lazy"
                     alt=""
-                    src="/group-21.svg"
+                    src={group2}
                   />
                 </div>
                 <div className="self-stretch relative tracking-[-0.2px]">

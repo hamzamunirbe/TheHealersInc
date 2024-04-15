@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="self-stretch flex flex-row items-start justify-start gap-[8px] max-w-full text-center text-xl text-blue-gray-600 font-components-helper-text">
+    <div className="self-stretch flex flex-row items-start justify-start gap-[8px] max-w-full text-center text-xl text-blue-gray-600 font-h5-medium">
       <video
         className="h-[700px] flex-1 bg-gray-500 flex flex-col items-start justify-start pt-0 px-0 pb-[205px] box-border max-w-full z-[1]"
         autoPlay

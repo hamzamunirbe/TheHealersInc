@@ -1,11 +1,10 @@
 import DataRouter from "./data-router";
 import Checkbox from "./checkbox";
 import DropDownMenu from "./drop-down-menu";
-import ButtonBusinessCard1 from "./button-business-card1";
 
 const InputProcessor = () => {
   return (
-    <div className="self-stretch flex flex-row items-start justify-start gap-[40px] max-w-full text-left text-lg text-neutral-8 font-web-primary-h2-primary-dm-sans mq750:gap-[20px]">
+    <div className="self-stretch flex flex-row items-start justify-start gap-[40px] max-w-full text-left text-lg text-neutral-8 font-web-primary-h3-primary-dm-sans mq750:gap-[20px]">
       <div className="h-[1063px] w-[216px] bg-neutral-1 overflow-y-auto shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-[877px] box-border gap-[8px] lg:pb-[570px] lg:box-border mq750:hidden mq750:pb-60 mq750:box-border mq1050:pb-[370px] mq1050:box-border">
         <div className="self-stretch bg-neutral-1 shadow-[0px_-1px_0px_#f0f0f0_inset] flex flex-row items-start justify-start pt-0 px-0 pb-2 shrink-0 [debug_commit:f6aba90]">
           <b className="relative leading-[28px] inline-block min-w-[56px]">
@@ -136,7 +135,7 @@ const InputProcessor = () => {
                     <div className="w-[152px] overflow-hidden shrink-0 flex flex-row items-start justify-start gap-[16px]">
                       <div className="h-6 w-6 relative rounded bg-input-field-background overflow-hidden shrink-0" />
                       <div className="flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0">
-                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h2-primary-dm-sans text-m3-black text-left">
+                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-m3-black text-left">
                           Life Counseling
                         </div>
                       </div>
@@ -146,7 +145,7 @@ const InputProcessor = () => {
                     <div className="w-[152px] overflow-hidden shrink-0 flex flex-row items-start justify-start gap-[16px]">
                       <div className="h-6 w-6 relative rounded bg-input-field-background overflow-hidden shrink-0" />
                       <div className="flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0">
-                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h2-primary-dm-sans text-m3-black text-left">
+                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-m3-black text-left">
                           Hypnotherapy
                         </div>
                       </div>
@@ -157,7 +156,7 @@ const InputProcessor = () => {
                     <div className="w-[152px] overflow-hidden shrink-0 flex flex-row items-start justify-start gap-[16px]">
                       <div className="h-6 w-6 relative rounded bg-input-field-background overflow-hidden shrink-0" />
                       <div className="flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0">
-                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h2-primary-dm-sans text-m3-black text-left">
+                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-m3-black text-left">
                           Meditation
                         </div>
                       </div>
@@ -209,7 +208,7 @@ const InputProcessor = () => {
                     <div className="w-[152px] overflow-hidden shrink-0 flex flex-row items-start justify-start gap-[16px]">
                       <div className="h-6 w-6 relative rounded bg-input-field-background overflow-hidden shrink-0" />
                       <div className="flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0">
-                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h2-primary-dm-sans text-m3-black text-left">
+                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-m3-black text-left">
                           Massage
                         </div>
                       </div>
@@ -219,7 +218,7 @@ const InputProcessor = () => {
                     <div className="w-[152px] overflow-hidden shrink-0 flex flex-row items-start justify-start gap-[16px]">
                       <div className="h-6 w-6 relative rounded bg-input-field-background overflow-hidden shrink-0" />
                       <div className="flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0">
-                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h2-primary-dm-sans text-m3-black text-left">
+                        <div className="self-stretch relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-m3-black text-left">
                           Yoga
                         </div>
                       </div>
@@ -244,7 +243,7 @@ const InputProcessor = () => {
                   <div className="flex-1 overflow-hidden flex flex-row items-start justify-start gap-[16px]">
                     <div className="h-6 w-6 relative rounded bg-input-field-background overflow-hidden shrink-0" />
                     <div className="h-[23px] flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0 box-border">
-                      <div className="self-stretch h-[22px] relative text-sm leading-[22px] font-web-primary-h2-primary-dm-sans text-m3-black text-left flex items-center">
+                      <div className="self-stretch h-[22px] relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-m3-black text-left flex items-center">
                         Medicine
                       </div>
                     </div>
@@ -282,7 +281,7 @@ const InputProcessor = () => {
                     <div className="w-[152px] overflow-hidden shrink-0 flex flex-row items-start justify-start gap-[16px]">
                       <div className="h-6 w-6 relative rounded bg-input-field-background overflow-hidden shrink-0" />
                       <div className="h-[23px] flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0 box-border">
-                        <div className="self-stretch h-[22px] relative text-sm leading-[22px] font-web-primary-h2-primary-dm-sans text-m3-black text-left flex items-center">
+                        <div className="self-stretch h-[22px] relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-m3-black text-left flex items-center">
                           Ayurvedic
                         </div>
                       </div>
@@ -302,7 +301,7 @@ const InputProcessor = () => {
                     <div className="w-[152px] overflow-hidden shrink-0 flex flex-row items-start justify-start gap-[16px]">
                       <div className="h-6 w-6 relative rounded bg-input-field-background overflow-hidden shrink-0" />
                       <input
-                        className="w-full [border:none] [outline:none] bg-[transparent] h-[23px] flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0 box-border font-web-primary-h2-primary-dm-sans text-sm text-m3-black min-w-[67px]"
+                        className="w-full [border:none] [outline:none] bg-[transparent] h-[23px] flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0 box-border font-web-primary-h3-primary-dm-sans text-sm text-m3-black min-w-[67px]"
                         placeholder="Title"
                         type="text"
                       />
@@ -330,51 +329,555 @@ const InputProcessor = () => {
         </div>
       </div>
       <div className="flex-1 flex flex-row flex-wrap items-start justify-end gap-[24px_23px] min-h-[1196px] max-w-[calc(100%_-_256px)] text-xl text-neutral-10 mq750:max-w-full">
-        <ButtonBusinessCard1
-          monogram="/monogram@2x.png"
-          header="The Star Studio"
-          subhead="Yoga, Meditation"
-        />
-        <ButtonBusinessCard1
-          monogram="/monogram-1@2x.png"
-          header="The Star Studio"
-          subhead="Life counseling, Meditation, Hypnotherapy "
-        />
-        <ButtonBusinessCard1
-          monogram="/monogram-2@2x.png"
-          header="Shapes"
-          subhead="Massage, Yoga, Acupuncture, Trauma release exercises"
-        />
-        <ButtonBusinessCard1
-          monogram="/monogram-2@2x.png"
-          header="Shapes"
-          subhead="Massage, Yoga, Acupuncture, Trauma release exercises"
-        />
-        <ButtonBusinessCard1
-          monogram="/monogram-2@2x.png"
-          header="Shapes"
-          subhead="Massage, Yoga, Acupuncture, Trauma release exercises"
-        />
-        <ButtonBusinessCard1
-          monogram="/monogram-2@2x.png"
-          header="Shapes"
-          subhead="Massage, Yoga, Acupuncture, Trauma release exercises"
-        />
-        <ButtonBusinessCard1
-          monogram="/monogram-2@2x.png"
-          header="Shapes"
-          subhead="Massage, Yoga, Acupuncture, Trauma release exercises"
-        />
-        <ButtonBusinessCard1
-          monogram="/monogram-2@2x.png"
-          header="Shapes"
-          subhead="Massage, Yoga, Acupuncture, Trauma release exercises"
-        />
-        <ButtonBusinessCard1
-          monogram="/monogram-2@2x.png"
-          header="Shapes"
-          subhead="Massage, Yoga, Acupuncture, Trauma release exercises"
-        />
+        <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] flex flex-row items-start justify-start">
+          <div className="flex-1 flex flex-col items-center justify-start">
+            <div className="self-stretch flex flex-row items-center justify-start p-4">
+              <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
+                <img
+                  className="h-10 w-10 relative overflow-hidden shrink-0 object-cover"
+                  loading="lazy"
+                  alt=""
+                  src="/monogram@2x.png"
+                />
+                <div className="flex-1 flex flex-col items-start justify-start">
+                  <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-bold font-inherit mq450:text-base mq450:leading-[24px]">
+                    The Star Studio
+                  </h3>
+                  <div className="self-stretch relative text-sm leading-[22px] text-neutral-7 overflow-hidden text-ellipsis whitespace-nowrap">
+                    Yoga, Meditation
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch h-[200px] flex flex-col items-center justify-start">
+              <img
+                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+                loading="lazy"
+                alt=""
+                src="/media1@2x.png"
+              />
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
+              <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                Howe Street, Vancouver
+              </div>
+              <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
+                <div className="h-10 rounded-81xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-m3-sys-light-outline">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+                <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="overflow-hidden flex flex-row items-center justify-start gap-[8px] text-base text-neutral-10">
+                <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
+                  1 mile
+                </div>
+                <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <img
+                    className="w-6 h-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/near-me1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] flex flex-row items-start justify-start">
+          <div className="flex-1 flex flex-col items-center justify-start">
+            <div className="self-stretch flex flex-row items-center justify-start p-4">
+              <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
+                <img
+                  className="h-10 w-10 relative overflow-hidden shrink-0 object-cover"
+                  alt=""
+                  src="/monogram-1@2x.png"
+                />
+                <div className="flex-1 flex flex-col items-start justify-start">
+                  <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-bold font-inherit mq450:text-base mq450:leading-[24px]">
+                    The Star Studio
+                  </h3>
+                  <div className="self-stretch relative text-sm leading-[22px] text-neutral-7 overflow-hidden text-ellipsis whitespace-nowrap">{`Life counseling, Meditation, Hypnotherapy `}</div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch h-[200px] flex flex-col items-center justify-start">
+              <img
+                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/media1@2x.png"
+              />
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
+              <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                Howe Street, Vancouver
+              </div>
+              <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
+                <div className="h-10 rounded-81xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-m3-sys-light-outline">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+                <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="overflow-hidden flex flex-row items-center justify-start gap-[8px] text-base text-neutral-10">
+                <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
+                  1 mile
+                </div>
+                <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <img
+                    className="w-6 h-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/near-me1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] flex flex-row items-start justify-start">
+          <div className="flex-1 flex flex-col items-center justify-start">
+            <div className="self-stretch flex flex-row items-center justify-start p-4">
+              <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
+                <img
+                  className="h-10 w-10 relative overflow-hidden shrink-0 object-cover"
+                  alt=""
+                  src="/monogram-2@2x.png"
+                />
+                <div className="flex-1 flex flex-col items-start justify-start">
+                  <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-bold font-inherit mq450:text-base mq450:leading-[24px]">
+                    Shapes
+                  </h3>
+                  <div className="self-stretch relative text-sm leading-[22px] text-neutral-7 overflow-hidden text-ellipsis whitespace-nowrap">
+                    Massage, Yoga, Acupuncture, Trauma release exercises
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch h-[200px] flex flex-col items-center justify-start">
+              <img
+                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/media1@2x.png"
+              />
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
+              <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                Howe Street, Vancouver
+              </div>
+              <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
+                <div className="h-10 rounded-81xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-m3-sys-light-outline">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+                <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="overflow-hidden flex flex-row items-center justify-start gap-[8px] text-base text-neutral-10">
+                <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
+                  1 mile
+                </div>
+                <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <img
+                    className="w-6 h-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/near-me1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] flex flex-row items-start justify-start">
+          <div className="flex-1 flex flex-col items-center justify-start">
+            <div className="self-stretch flex flex-row items-center justify-start p-4">
+              <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
+                <img
+                  className="h-10 w-10 relative overflow-hidden shrink-0 object-cover"
+                  alt=""
+                  src="/monogram-2@2x.png"
+                />
+                <div className="flex-1 flex flex-col items-start justify-start">
+                  <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-bold font-inherit mq450:text-base mq450:leading-[24px]">
+                    Shapes
+                  </h3>
+                  <div className="self-stretch relative text-sm leading-[22px] text-neutral-7 overflow-hidden text-ellipsis whitespace-nowrap">
+                    Massage, Yoga, Acupuncture, Trauma release exercises
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch h-[200px] flex flex-col items-center justify-start">
+              <img
+                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/media1@2x.png"
+              />
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
+              <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                Howe Street, Vancouver
+              </div>
+              <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
+                <div className="h-10 rounded-81xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-m3-sys-light-outline">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+                <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="overflow-hidden flex flex-row items-center justify-start gap-[8px] text-base text-neutral-10">
+                <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
+                  1 mile
+                </div>
+                <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <img
+                    className="w-6 h-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/near-me1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] flex flex-row items-start justify-start">
+          <div className="flex-1 flex flex-col items-center justify-start">
+            <div className="self-stretch flex flex-row items-center justify-start p-4">
+              <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
+                <img
+                  className="h-10 w-10 relative overflow-hidden shrink-0 object-cover"
+                  alt=""
+                  src="/monogram-2@2x.png"
+                />
+                <div className="flex-1 flex flex-col items-start justify-start">
+                  <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-bold font-inherit mq450:text-base mq450:leading-[24px]">
+                    Shapes
+                  </h3>
+                  <div className="self-stretch relative text-sm leading-[22px] text-neutral-7 overflow-hidden text-ellipsis whitespace-nowrap">
+                    Massage, Yoga, Acupuncture, Trauma release exercises
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch h-[200px] flex flex-col items-center justify-start">
+              <img
+                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/media1@2x.png"
+              />
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
+              <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                Howe Street, Vancouver
+              </div>
+              <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
+                <div className="h-10 rounded-81xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-m3-sys-light-outline">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+                <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="overflow-hidden flex flex-row items-center justify-start gap-[8px] text-base text-neutral-10">
+                <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
+                  1 mile
+                </div>
+                <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <img
+                    className="w-6 h-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/near-me1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] flex flex-row items-start justify-start">
+          <div className="flex-1 flex flex-col items-center justify-start">
+            <div className="self-stretch flex flex-row items-center justify-start p-4">
+              <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
+                <img
+                  className="h-10 w-10 relative overflow-hidden shrink-0 object-cover"
+                  alt=""
+                  src="/monogram-2@2x.png"
+                />
+                <div className="flex-1 flex flex-col items-start justify-start">
+                  <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-bold font-inherit mq450:text-base mq450:leading-[24px]">
+                    Shapes
+                  </h3>
+                  <div className="self-stretch relative text-sm leading-[22px] text-neutral-7 overflow-hidden text-ellipsis whitespace-nowrap">
+                    Massage, Yoga, Acupuncture, Trauma release exercises
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch h-[200px] flex flex-col items-center justify-start">
+              <img
+                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/media1@2x.png"
+              />
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
+              <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                Howe Street, Vancouver
+              </div>
+              <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
+                <div className="h-10 rounded-81xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-m3-sys-light-outline">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+                <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="overflow-hidden flex flex-row items-center justify-start gap-[8px] text-base text-neutral-10">
+                <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
+                  1 mile
+                </div>
+                <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <img
+                    className="w-6 h-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/near-me1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] flex flex-row items-start justify-start">
+          <div className="flex-1 flex flex-col items-center justify-start">
+            <div className="self-stretch flex flex-row items-center justify-start p-4">
+              <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
+                <img
+                  className="h-10 w-10 relative overflow-hidden shrink-0 object-cover"
+                  alt=""
+                  src="/monogram-2@2x.png"
+                />
+                <div className="flex-1 flex flex-col items-start justify-start">
+                  <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-bold font-inherit mq450:text-base mq450:leading-[24px]">
+                    Shapes
+                  </h3>
+                  <div className="self-stretch relative text-sm leading-[22px] text-neutral-7 overflow-hidden text-ellipsis whitespace-nowrap">
+                    Massage, Yoga, Acupuncture, Trauma release exercises
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch h-[200px] flex flex-col items-center justify-start">
+              <img
+                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/media1@2x.png"
+              />
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
+              <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                Howe Street, Vancouver
+              </div>
+              <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
+                <div className="h-10 rounded-81xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-m3-sys-light-outline">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+                <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="overflow-hidden flex flex-row items-center justify-start gap-[8px] text-base text-neutral-10">
+                <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
+                  1 mile
+                </div>
+                <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <img
+                    className="w-6 h-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/near-me1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] flex flex-row items-start justify-start">
+          <div className="flex-1 flex flex-col items-center justify-start">
+            <div className="self-stretch flex flex-row items-center justify-start p-4">
+              <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
+                <img
+                  className="h-10 w-10 relative overflow-hidden shrink-0 object-cover"
+                  alt=""
+                  src="/monogram-2@2x.png"
+                />
+                <div className="flex-1 flex flex-col items-start justify-start">
+                  <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-bold font-inherit mq450:text-base mq450:leading-[24px]">
+                    Shapes
+                  </h3>
+                  <div className="self-stretch relative text-sm leading-[22px] text-neutral-7 overflow-hidden text-ellipsis whitespace-nowrap">
+                    Massage, Yoga, Acupuncture, Trauma release exercises
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch h-[200px] flex flex-col items-center justify-start">
+              <img
+                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/media1@2x.png"
+              />
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
+              <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                Howe Street, Vancouver
+              </div>
+              <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
+                <div className="h-10 rounded-81xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-m3-sys-light-outline">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+                <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="overflow-hidden flex flex-row items-center justify-start gap-[8px] text-base text-neutral-10">
+                <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
+                  1 mile
+                </div>
+                <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <img
+                    className="w-6 h-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/near-me1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] flex flex-row items-start justify-start">
+          <div className="flex-1 flex flex-col items-center justify-start">
+            <div className="self-stretch flex flex-row items-center justify-start p-4">
+              <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
+                <img
+                  className="h-10 w-10 relative overflow-hidden shrink-0 object-cover"
+                  alt=""
+                  src="/monogram-2@2x.png"
+                />
+                <div className="flex-1 flex flex-col items-start justify-start">
+                  <h3 className="m-0 self-stretch relative text-inherit leading-[30px] font-bold font-inherit mq450:text-base mq450:leading-[24px]">
+                    Shapes
+                  </h3>
+                  <div className="self-stretch relative text-sm leading-[22px] text-neutral-7 overflow-hidden text-ellipsis whitespace-nowrap">
+                    Massage, Yoga, Acupuncture, Trauma release exercises
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="self-stretch h-[200px] flex flex-col items-center justify-start">
+              <img
+                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
+                alt=""
+                src="/media1@2x.png"
+              />
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
+              <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                Howe Street, Vancouver
+              </div>
+              <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
+                <div className="h-10 rounded-81xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-m3-sys-light-outline">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+                <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                  <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
+                    <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
+                      Enabled
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="overflow-hidden flex flex-row items-center justify-start gap-[8px] text-base text-neutral-10">
+                <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
+                  1 mile
+                </div>
+                <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <img
+                    className="w-6 h-6 relative overflow-hidden shrink-0"
+                    alt=""
+                    src="/near-me1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="flex-1 flex flex-row items-center justify-between min-w-[378px] max-w-full gap-[20px] text-center text-sm text-m3-black mq750:flex-wrap">
           <div className="w-[195px] relative leading-[22px] font-semibold flex items-center justify-center">
             Showing 12 Results out of 120

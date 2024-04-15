@@ -14,7 +14,7 @@ const NotificationPopup = () => {
             />
           </div>
           <div className="flex-1 flex flex-col items-start justify-start py-[2.5px] px-0 gap-[15.2px] text-left text-base text-text-subtext">
-            <div className="self-stretch flex flex-col items-start justify-start gap-[10.1px] text-text-header font-web-primary-h2-primary-dm-sans">
+            <div className="self-stretch flex flex-col items-start justify-start gap-[10.1px] text-text-header font-web-primary-h3-primary-dm-sans">
               <div className="self-stretch relative font-semibold">
                 Appointment Booked
               </div>
@@ -23,7 +23,7 @@ const NotificationPopup = () => {
             <img
               className="w-[344.7px] relative rounded-[5.07px] max-w-full overflow-hidden h-[167.3px] shrink-0 object-cover hidden"
               alt=""
-              src="/image@2x.png"
+              src="/image1@2x.png"
             />
             <div className="w-[400.5px] box-border hidden flex-row items-center justify-start py-[10.1px] px-[15.2px] text-base-2 border-l-[2.5px] border-solid border-status-active">
               <div className="flex-1 relative leading-[20.28px] font-medium">
@@ -47,7 +47,7 @@ const NotificationPopup = () => {
                 <img
                   className="w-[27.9px] relative h-[27.9px] overflow-hidden shrink-0 object-cover hidden"
                   alt=""
-                  src="/interfacecube@2x.png"
+                  src="/interfacecube1@2x.png"
                 />
                 <div className="relative leading-[30.41px] font-medium">
                   Deny
@@ -77,11 +77,11 @@ const NotificationPopup = () => {
             <img
               className="absolute top-[0px] left-[0px] w-[40.6px] h-[40.6px] object-cover"
               alt=""
-              src="/avatarimage@2x.png"
+              src="/avatarimage1@2x.png"
             />
           </div>
           <div className="flex-1 flex flex-col items-start justify-start py-[2.5px] px-0 gap-[15.2px] text-left text-base-2 text-text-subtext">
-            <div className="self-stretch flex flex-col items-start justify-start gap-[10.1px] text-base text-text-header font-web-primary-h2-primary-dm-sans">
+            <div className="self-stretch flex flex-col items-start justify-start gap-[10.1px] text-base text-text-header font-web-primary-h3-primary-dm-sans">
               <div className="self-stretch relative font-semibold">
                 Booking Re-scheduled
               </div>
@@ -92,7 +92,7 @@ const NotificationPopup = () => {
             <img
               className="w-[344.7px] relative rounded-[5.07px] max-w-full overflow-hidden h-[167.3px] shrink-0 object-cover hidden"
               alt=""
-              src="/image@2x.png"
+              src="/image11@2x.png"
             />
             <div className="w-[400.5px] box-border hidden flex-row items-center justify-start py-[10.1px] px-[15.2px] border-l-[2.5px] border-solid border-status-active">
               <div className="flex-1 relative leading-[20.28px] font-medium">
@@ -106,7 +106,7 @@ const NotificationPopup = () => {
                 <img
                   className="w-[27.9px] relative h-[27.9px] overflow-hidden shrink-0 object-cover hidden"
                   alt=""
-                  src="/interfacecube@2x.png"
+                  src="/interfacecube2@2x.png"
                 />
                 <div className="relative leading-[30.41px] font-medium">
                   Accept
@@ -116,7 +116,7 @@ const NotificationPopup = () => {
                 <img
                   className="w-[27.9px] relative h-[27.9px] overflow-hidden shrink-0 object-cover hidden"
                   alt=""
-                  src="/interfacecube@2x.png"
+                  src="/interfacecube3@2x.png"
                 />
                 <div className="relative leading-[30.41px] font-medium">
                   Deny
@@ -146,11 +146,11 @@ const NotificationPopup = () => {
             <img
               className="absolute top-[0px] left-[0px] w-[40.6px] h-[40.6px] object-cover"
               alt=""
-              src="/avatarimage@2x.png"
+              src="/avatarimage2@2x.png"
             />
           </div>
           <div className="flex-1 flex flex-col items-start justify-start py-[2.5px] px-0 gap-[15.2px] text-left text-base-2 text-text-subtext">
-            <div className="self-stretch flex flex-col items-start justify-start gap-[10.1px] text-base text-text-header font-web-primary-h2-primary-dm-sans">
+            <div className="self-stretch flex flex-col items-start justify-start gap-[10.1px] text-base text-text-header font-web-primary-h3-primary-dm-sans">
               <div className="self-stretch relative font-semibold">
                 Maria Hill
               </div>
@@ -162,7 +162,7 @@ const NotificationPopup = () => {
             <img
               className="w-[344.7px] relative rounded-[5.07px] max-w-full overflow-hidden h-[167.3px] shrink-0 object-cover hidden"
               alt=""
-              src="/image@2x.png"
+              src="/image2@2x.png"
             />
             <div className="w-[400.5px] box-border hidden flex-row items-center justify-start py-[10.1px] px-[15.2px] border-l-[2.5px] border-solid border-status-active">
               <div className="flex-1 relative leading-[20.28px] font-medium">
@@ -174,7 +174,7 @@ const NotificationPopup = () => {
                 <img
                   className="w-[27.9px] relative h-[27.9px] overflow-hidden shrink-0 object-cover hidden"
                   alt=""
-                  src="/interfacecube@2x.png"
+                  src="/interfacecube4@2x.png"
                 />
                 <div className="relative leading-[30.41px] font-medium">
                   Accept
@@ -184,7 +184,7 @@ const NotificationPopup = () => {
                 <img
                   className="w-[27.9px] relative h-[27.9px] overflow-hidden shrink-0 object-cover hidden"
                   alt=""
-                  src="/interfacecube@2x.png"
+                  src="/interfacecube5@2x.png"
                 />
                 <div className="relative leading-[30.41px] font-medium">
                   Deny
@@ -214,11 +214,11 @@ const NotificationPopup = () => {
             <img
               className="absolute top-[0px] left-[0px] w-[40.6px] h-[40.6px] object-cover"
               alt=""
-              src="/avatarimage@2x.png"
+              src="/avatarimage3@2x.png"
             />
           </div>
           <div className="flex-1 flex flex-col items-start justify-start py-[2.5px] px-0 gap-[15.2px] text-left text-base-2 text-text-subtext">
-            <div className="self-stretch flex flex-col items-start justify-start gap-[10.1px] text-base text-text-header font-web-primary-h2-primary-dm-sans">
+            <div className="self-stretch flex flex-col items-start justify-start gap-[10.1px] text-base text-text-header font-web-primary-h3-primary-dm-sans">
               <div className="self-stretch relative font-semibold">
                 Alex Carpena
               </div>
@@ -230,7 +230,7 @@ const NotificationPopup = () => {
             <img
               className="w-[344.7px] relative rounded-[5.07px] max-w-full overflow-hidden h-[167.3px] shrink-0 object-cover hidden"
               alt=""
-              src="/image@2x.png"
+              src="/image3@2x.png"
             />
             <div className="self-stretch flex flex-row items-center justify-start py-[10.1px] px-[15.2px] border-l-[2.5px] border-solid border-status-active">
               <div className="flex-1 relative leading-[20.28px] font-medium">
@@ -242,7 +242,7 @@ const NotificationPopup = () => {
                 <img
                   className="w-[27.9px] relative h-[27.9px] overflow-hidden shrink-0 object-cover hidden"
                   alt=""
-                  src="/interfacecube@2x.png"
+                  src="/interfacecube6@2x.png"
                 />
                 <div className="relative leading-[30.41px] font-medium">
                   Accept
@@ -252,7 +252,7 @@ const NotificationPopup = () => {
                 <img
                   className="w-[27.9px] relative h-[27.9px] overflow-hidden shrink-0 object-cover hidden"
                   alt=""
-                  src="/interfacecube@2x.png"
+                  src="/interfacecube7@2x.png"
                 />
                 <div className="relative leading-[30.41px] font-medium">
                   Deny
@@ -275,7 +275,7 @@ const NotificationPopup = () => {
           />
         </div>
       </div>
-      <div className="absolute w-full top-[0px] right-[-0.2px] left-[0.2px] bg-neutral-1 shadow-[0px_8.9px_5.07px_rgba(0,_0,_0,_0.02),_0px_3.8px_3.8px_rgba(0,_0,_0,_0.03),_0px_1.3px_2.53px_rgba(0,_0,_0,_0.04),_0px_0px_0px_rgba(0,_0,_0,_0.04)] box-border overflow-hidden flex flex-col items-start justify-start text-right text-base text-status-active font-web-primary-h2-primary-dm-sans border-b-[1.3px] border-solid border-structure-border">
+      <div className="absolute w-full top-[0px] right-[-0.2px] left-[0.2px] bg-neutral-1 shadow-[0px_8.9px_5.07px_rgba(0,_0,_0,_0.02),_0px_3.8px_3.8px_rgba(0,_0,_0,_0.03),_0px_1.3px_2.53px_rgba(0,_0,_0,_0.04),_0px_0px_0px_rgba(0,_0,_0,_0.04)] box-border overflow-hidden flex flex-col items-start justify-start text-right text-base text-status-active font-web-primary-h3-primary-dm-sans border-b-[1.3px] border-solid border-structure-border">
         <div className="self-stretch flex flex-col items-start justify-start">
           <div className="self-stretch relative bg-neutral-1 h-[71px] overflow-hidden shrink-0">
             <div className="absolute top-[20.3px] right-[20.3px] flex flex-row items-center justify-start gap-[15.2px]">

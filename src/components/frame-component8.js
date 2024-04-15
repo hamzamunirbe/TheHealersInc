@@ -1,6 +1,6 @@
 const FrameComponent8 = () => {
   return (
-    <div className="flex-1 flex flex-col items-start justify-start pt-[22px] pb-[485px] pr-0 pl-10 box-border relative gap-[54px] min-w-[390px] max-w-full text-left text-29xl text-m3-black font-web-primary-h2-primary-dm-sans mq750:gap-[27px] mq750:min-w-full mq450:pb-[205px] mq450:box-border mq1050:pt-5 mq1050:pb-[315px] mq1050:box-border">
+    <div className="flex-1 flex flex-col items-start justify-start pt-[22px] pb-[485px] pr-0 pl-10 box-border relative gap-[54px] min-w-[390px] max-w-full text-left text-29xl text-m3-black font-web-primary-h3-primary-dm-sans mq750:gap-[27px] mq750:min-w-full mq450:pb-[205px] mq450:box-border mq1050:pt-5 mq1050:pb-[315px] mq1050:box-border">
       <img
         className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-2xl max-w-full overflow-hidden max-h-full"
         alt=""

@@ -1,6 +1,6 @@
 const ServiceCard2 = () => {
   return (
-    <div className="self-stretch shadow-[-1px_0px_0px_#d9d9d9_inset,_0px_1px_0px_#d9d9d9_inset,_0px_-1px_0px_#d9d9d9_inset] flex flex-row items-start justify-start max-w-full [row-gap:20px] text-left text-5xl text-neutral-11 font-web-primary-h2-primary-dm-sans mq750:flex-wrap">
+    <div className="self-stretch shadow-[-1px_0px_0px_#d9d9d9_inset,_0px_1px_0px_#d9d9d9_inset,_0px_-1px_0px_#d9d9d9_inset] flex flex-row items-start justify-start max-w-full [row-gap:20px] text-left text-5xl text-neutral-11 font-web-primary-h3-primary-dm-sans mq750:flex-wrap">
       <img
         className="h-[172px] w-[166px] relative rounded-tl-xl rounded-tr-none rounded-br-none rounded-bl-xl object-cover min-h-[172px]"
         loading="lazy"
@@ -29,7 +29,7 @@ const ServiceCard2 = () => {
               className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
               loading="lazy"
               alt=""
-              src="/icons.svg"
+              src="/icons1.svg"
             />
             <div className="flex-1 relative leading-[22px] font-semibold inline-block min-w-[44px]">
               Online
@@ -40,7 +40,7 @@ const ServiceCard2 = () => {
               className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
               loading="lazy"
               alt=""
-              src="/timezone-1.svg"
+              src="/timezone-11.svg"
             />
             <div className="relative leading-[22px] font-semibold inline-block min-w-[84px] whitespace-nowrap">
               GMT -05:00

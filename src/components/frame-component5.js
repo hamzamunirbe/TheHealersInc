@@ -18,7 +18,7 @@ const FrameComponent5 = () => {
   }, [navigate]);
 
   return (
-    <div className="w-[180px] flex flex-col items-start justify-start gap-[24px] min-w-[180px] text-center text-lg text-neutral-1 font-web-primary-h2-primary-dm-sans mq750:flex-1">
+    <div className="w-[180px] flex flex-col items-start justify-start gap-[24px] min-w-[180px] text-center text-lg text-neutral-1 font-web-primary-h3-primary-dm-sans mq750:flex-1">
       <div className="self-stretch rounded-2xl bg-consumer-colors-complemantary flex flex-col items-start justify-start pt-2.5 pb-[34px] pr-2.5 pl-[57px] gap-[16px]">
         <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[3px]">
           <div className="flex-1 flex flex-col items-end justify-start gap-[10px]">

@@ -16,7 +16,7 @@ const PreferencesTile = ({
 
   return (
     <div
-      className="rounded-2xl bg-consumer-colors-complemantary flex flex-col items-end justify-start pt-2.5 px-2.5 pb-[34px] gap-[16px] text-center text-lg text-neutral-1 font-web-primary-h2-primary-dm-sans"
+      className="rounded-2xl bg-consumer-colors-complemantary flex flex-col items-end justify-start pt-2.5 px-2.5 pb-[34px] gap-[16px] text-center text-lg text-neutral-1 font-web-primary-h3-primary-dm-sans"
       onClick={onPreferencesTileContainer2Click}
     >
       <div className="w-[110px] flex flex-col items-end justify-start gap-[10px]">
